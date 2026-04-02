@@ -1,0 +1,6 @@
+source;share/navbot_firmware/hook/cmake_prefix_path.dsv
+source;share/navbot_firmware/hook/cmake_prefix_path.sh
+source;share/navbot_firmware/local_setup.bash
+source;share/navbot_firmware/local_setup.dsv
+source;share/navbot_firmware/local_setup.sh
+source;share/navbot_firmware/local_setup.zsh

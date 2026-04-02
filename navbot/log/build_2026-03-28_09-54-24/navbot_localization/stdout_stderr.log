@@ -1,0 +1,10 @@
+[  0%] Built target ament_cmake_python_copy_navbot_localization
+[ 50%] Built target kalman_filter
+[100%] Built target odometry_motion_model
+running egg_info
+writing navbot_localization.egg-info/PKG-INFO
+writing dependency_links to navbot_localization.egg-info/dependency_links.txt
+writing top-level names to navbot_localization.egg-info/top_level.txt
+reading manifest file 'navbot_localization.egg-info/SOURCES.txt'
+writing manifest file 'navbot_localization.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_navbot_localization_egg

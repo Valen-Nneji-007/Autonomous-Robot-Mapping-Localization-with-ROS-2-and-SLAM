@@ -1,0 +1,22 @@
+[0.347s] Invoking command in '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_examples:/opt/ros/jazzy /usr/bin/cmake --build /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_cpp_examples -- -j8 -l8
+[0.855s] [ 33%] Built target simple_parameter
+[0.863s] [ 66%] Built target simple_turtlesim_kinematics
+[1.304s] [ 83%] [32mBuilding CXX object CMakeFiles/simple_tf_kinematics.dir/src/simple_tf_kinematics.cpp.o[0m
+[7.423s] [01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_cpp_examples/src/simple_tf_kinematics.cpp:[m[K In constructor ‘[01m[KSimpleTfKinematics::[01;32m[KSimpleTfKinematics[m[K(const std::string&)[m[K’:
+[7.424s] [01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_cpp_examples/src/simple_tf_kinematics.cpp:30:69:[m[K [01;31m[Kerror: [m[K‘[01m[KtimerCallback[m[K’ is not a member of ‘[01m[KSimpleTfKinematics[m[K’
+[7.426s]    30 | wall_timer(0.1s, std::bind(&SimpleTfKinematics::[01;31m[KtimerCallback[m[K, this));
+[7.428s]       |                                                 [01;31m[K^~~~~~~~~~~~~[m[K
+[7.430s] 
+[7.433s] [01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_cpp_examples/src/simple_tf_kinematics.cpp:[m[K At global scope:
+[7.436s] [01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_cpp_examples/src/simple_tf_kinematics.cpp:34:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid SimpleTfKinematics::[01;32m[KtimerCallback[m[K()[m[K’
+[7.438s]    34 | void [01;31m[KSimpleTfKinematics[m[K::timerCallback()
+[7.440s]       |      [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[7.442s] [01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_cpp_examples/src/simple_tf_kinematics.cpp:34:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid SimpleTfKinematics::[01;32m[KtimerCallback[m[K()[m[K’
+[7.444s] In file included from [01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_cpp_examples/src/simple_tf_kinematics.cpp:1[m[K:
+[7.447s] [01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_cpp_examples/include/navbot_cpp_examples/simple_tf_kinematics.hpp:11:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass SimpleTfKinematics[m[K’ defined here
+[7.451s]    11 | class [01;36m[KSimpleTfKinematics[m[K : public rclcpp::Node
+[7.453s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[9.224s] gmake[2]: *** [CMakeFiles/simple_tf_kinematics.dir/build.make:76: CMakeFiles/simple_tf_kinematics.dir/src/simple_tf_kinematics.cpp.o] Error 1
+[9.229s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/simple_tf_kinematics.dir/all] Error 2
+[9.230s] gmake: *** [Makefile:146: all] Error 2
+[9.235s] Invoked command in '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_cpp_examples' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_examples:/opt/ros/jazzy /usr/bin/cmake --build /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_cpp_examples -- -j8 -l8

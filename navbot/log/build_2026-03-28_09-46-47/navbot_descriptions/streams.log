@@ -1,0 +1,26 @@
+[0.687s] Invoking command in '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_descriptions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_descriptions -DCMAKE_INSTALL_PREFIX=/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_descriptions
+[1.837s] -- The C compiler identification is GNU 13.3.0
+[3.791s] -- The CXX compiler identification is GNU 13.3.0
+[5.783s] -- Detecting C compiler ABI info
+[8.036s] -- Detecting C compiler ABI info - done
+[8.225s] -- Check for working C compiler: /usr/bin/cc - skipped
+[8.229s] -- Detecting C compile features
+[8.232s] -- Detecting C compile features - done
+[8.841s] -- Detecting CXX compiler ABI info
+[11.299s] -- Detecting CXX compiler ABI info - done
+[11.481s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[11.485s] -- Detecting CXX compile features
+[11.497s] -- Detecting CXX compile features - done
+[11.827s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[16.664s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[21.759s] -- Found urdf: 2.10.0 (/opt/ros/jazzy/share/urdf/cmake)
+[25.883s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[26.991s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[90.973s] -- Added test 'flake8' to check Python code syntax and style conventions
+[90.975s] -- Configured 'flake8' exclude dirs and/or files: 
+[102.201s] -- Added test 'lint_cmake' to check CMake code style
+[107.656s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[158.736s] -- Added test 'xmllint' to check XML markup files
+[158.985s] -- Configuring done (158.3s)
+[159.337s] -- Generating done (0.3s)
+[159.645s] -- Build files have been written to: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_descriptions

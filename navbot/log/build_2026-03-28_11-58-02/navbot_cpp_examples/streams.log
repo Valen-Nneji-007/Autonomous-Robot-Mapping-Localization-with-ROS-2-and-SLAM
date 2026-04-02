@@ -1,0 +1,53 @@
+[1.383s] Invoking command in '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_cpp_examples -- -j8 -l8
+[3.737s] [ 50%] Built target simple_parameter
+[3.740s] [ 75%] [32mBuilding CXX object CMakeFiles/simple_turtlesim_kinematics.dir/src/simple_turtlesim_kinematics.cpp.o[0m
+[10.926s] In file included from [01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_cpp_examples/src/simple_turtlesim_kinematics.cpp:1[m[K:
+[10.929s] [01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_cpp_examples/include/navbot_cpp_examples/simple_turtle_kinematics.hpp:17:47:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[10.931s]    17 |   rclcpp::Subscription<turtlesim::msg::Pose>[01;31m[KSharedPtr[m[K turtle1_pose_sub_;
+[10.934s]       |                                             [01;31m[K^~~~~~~~~[m[K
+[10.936s]       |                                                      [32m[K;[m[K
+[10.938s] [01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_cpp_examples/include/navbot_cpp_examples/simple_turtle_kinematics.hpp:17:57:[m[K [01;31m[Kerror: [m[K‘[01m[Kturtle1_pose_sub_[m[K’ does not name a type
+[10.939s]    17 | Subscription<turtlesim::msg::Pose>SharedPtr [01;31m[Kturtle1_pose_sub_[m[K;
+[10.941s]       |                                             [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[10.942s] 
+[10.943s] [01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_cpp_examples/include/navbot_cpp_examples/simple_turtle_kinematics.hpp:18:47:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[10.945s]    18 |   rclcpp::Subscription<turtlesim::msg::Pose>[01;31m[KSharedPtr[m[K turtle2_pose_sub_;
+[10.947s]       |                                             [01;31m[K^~~~~~~~~[m[K
+[10.949s]       |                                                      [32m[K;[m[K
+[10.950s] [01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_cpp_examples/include/navbot_cpp_examples/simple_turtle_kinematics.hpp:18:47:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Krclcpp::Subscription<turtlesim::msg::Pose_<std::allocator<void> > > SimpleTurtlesimKinematics::SharedPtr[m[K’
+[10.951s] [01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_cpp_examples/include/navbot_cpp_examples/simple_turtle_kinematics.hpp:17:47:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Krclcpp::Subscription<turtlesim::msg::Pose_<std::allocator<void> > > SimpleTurtlesimKinematics::SharedPtr[m[K’
+[10.952s]    17 |   rclcpp::Subscription<turtlesim::msg::Pose>[01;36m[KSharedPtr[m[K turtle1_pose_sub_;
+[10.954s]       |                                             [01;36m[K^~~~~~~~~[m[K
+[10.955s] 
+[10.958s] [01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_cpp_examples/include/navbot_cpp_examples/simple_turtle_kinematics.hpp:18:57:[m[K [01;31m[Kerror: [m[K‘[01m[Kturtle2_pose_sub_[m[K’ does not name a type
+[10.960s]    18 | Subscription<turtlesim::msg::Pose>SharedPtr [01;31m[Kturtle2_pose_sub_[m[K;
+[10.962s]       |                                             [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[10.963s] 
+[10.965s] [01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_cpp_examples/src/simple_turtlesim_kinematics.cpp:[m[K In constructor ‘[01m[KSimpleTurtlesimKinematics::[01;32m[KSimpleTurtlesimKinematics[m[K(const std::string&)[m[K’:
+[10.968s] [01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_cpp_examples/src/simple_turtlesim_kinematics.cpp:5:90:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Subscription<turtlesim::msg::Pose_<std::allocator<void> > >::Subscription()[m[K’
+[10.969s]     5 | rtlesimKinematics(const std::string &name) : Node(name[01;31m[K)[m[K
+[10.970s]       |                                                       [01;31m[K^[m[K
+[10.971s] 
+[10.973s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+[10.975s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[10.977s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[10.979s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor_options.hpp:22[m[K,
+[10.980s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor.hpp:38[m[K,
+[10.981s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[10.982s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[10.984s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K,
+[10.985s]                  from [01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_cpp_examples/include/navbot_cpp_examples/simple_turtle_kinematics.hpp:4[m[K:
+[10.986s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/subscription.hpp:131:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Subscription<MessageT, AllocatorT, SubscribedT, ROSMessageT, MessageMemoryStrategyT>::[01;32m[KSubscription[m[K(rclcpp::node_interfaces::NodeBaseInterface*, const rosidl_message_type_support_t&, const std::string&, const rclcpp::QoS&, rclcpp::AnySubscriptionCallback<CallbackMessageT, AllocatorT>, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr, SubscriptionTopicStatisticsSharedPtr) [35m[K[with MessageT = turtlesim::msg::Pose_<std::allocator<void> >; AllocatorT = std::allocator<void>; SubscribedT = turtlesim::msg::Pose_<std::allocator<void> >; ROSMessageT = turtlesim::msg::Pose_<std::allocator<void> >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<turtlesim::msg::Pose_<std::allocator<void> >, std::allocator<void> >; rosidl_message_type_support_t = rosidl_message_type_support_t; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<turtlesim::msg::Pose_<std::allocator<void> >, std::allocator<void> > >; SubscriptionTopicStatisticsSharedPtr = std::shared_ptr<rclcpp::topic_statistics::SubscriptionTopicStatistics>][m[K[m[K’
+[10.987s]   131 |   [01;36m[KSubscription[m[K(
+[10.989s]       |   [01;36m[K^~~~~~~~~~~~[m[K
+[10.990s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/subscription.hpp:131:3:[m[K [01;36m[Knote: [m[K  candidate expects 8 arguments, 0 provided
+[10.992s] [01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_cpp_examples/src/simple_turtlesim_kinematics.cpp:7:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kturtle1_pose_sub_[m[K’ was not declared in this scope
+[10.993s]     7 |     [01;31m[Kturtle1_pose_sub_[m[K = create_subscription<turtlesim::msg::Pose>("/turtle1/pose", 10,
+[10.995s]       |     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[11.004s] [01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_cpp_examples/src/simple_turtlesim_kinematics.cpp:9:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kturtle2_pose_sub_[m[K’ was not declared in this scope
+[11.005s]     9 |     [01;31m[Kturtle2_pose_sub_[m[K = create_subscription<turtlesim::msg::Pose>("/turtle1/pose", 10,
+[11.007s]       |     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[15.388s] gmake[2]: *** [CMakeFiles/simple_turtlesim_kinematics.dir/build.make:76: CMakeFiles/simple_turtlesim_kinematics.dir/src/simple_turtlesim_kinematics.cpp.o] Error 1
+[15.391s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/simple_turtlesim_kinematics.dir/all] Error 2
+[15.392s] gmake: *** [Makefile:146: all] Error 2
+[15.397s] Invoked command in '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_cpp_examples' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_cpp_examples -- -j8 -l8

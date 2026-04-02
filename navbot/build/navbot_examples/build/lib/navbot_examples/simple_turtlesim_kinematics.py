@@ -1,0 +1,48 @@
+import rclpy
+from rclpy.node import Node
+from turtlesim.msg import Pose
+import math
+
+class SimpleTurtleKinematics(Node):
+    def __init__(self):
+        super().__init__("simple_turtlesim_kinematics")
+
+        self.turtle1_pose_sub_ = self.create_subscription(Pose, "/turtle1/pose", self.turtle1PoseCallback, 10 )
+        self.turtle2_pose_sub_ = self.create_subscription(Pose, "/turtle2/pose", self.turtle2PoseCallback, 10 )
+
+        self.last_turtle1_pose_ = Pose()
+        self.last_turtle2_pose_ = Pose()
+
+    def turtle1PoseCallback(self, msg):
+        self.last_turtle1_pose_ =msg
+
+
+    def turtle2PoseCallback(self, msg):
+        self.last_turtle2_pose_ =msg
+
+        Tx = self.last_turtle2_pose_.x - self.last_turtle1_pose_.x
+        Ty = self.last_turtle2_pose_.y - self.last_turtle1_pose_.y
+        Ttheta = self.last_turtle2_pose_.theta - self.last_turtle1_pose_.theta
+
+        theta_deg = 180 * Ttheta / 3.14
+
+        self.get_logger().info("""\n
+                Translation Vector turtle1 -> turtle2 \n
+                Tx: %f \n
+                Ty: %f \n
+                Rotation Matrix turtle1 -> turtle2\n
+                Ttheta(rad): %f\n
+                theta(deg): %f \n
+                |R11        R12| : |%f      %f|\n
+                |R21        R22| : |%f      %f|\n""" % (Tx, Ty, Ttheta, theta_deg, math.cos(Ttheta),
+                                                        -math.sin(Ttheta), math.sin(Ttheta), math.cos(Ttheta)))
+
+def main():
+    rclpy.init()
+    simple_turtlesim_kinematics = SimpleTurtleKinematics()
+    rclpy.spin(simple_turtlesim_kinematics)
+    simple_turtlesim_kinematics.destroy_node()
+    rclpy.shutdown()
+
+if __name__ == '__main__':
+    main()

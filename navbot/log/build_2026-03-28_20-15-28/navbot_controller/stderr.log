@@ -1,0 +1,10 @@
+[01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_controller/src/simple_controller.cpp:[m[K In constructor ‘[01m[KSimpleController::[01;32m[KSimpleController[m[K(const std::string&)[m[K’:
+[01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_controller/src/simple_controller.cpp:17:115:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kvel_sub_[m[K’
+   17 |     wheel_cmd_pub_ = create_publisher<std_msgs::msg::Float64MultiArray>("simple_velocity_controller/commands", 10)
+      |                                                                                                                   [01;31m[K^[m[K
+      |                                                                                                                   [32m[K;[m[K
+   18 |     [32m[Kvel_sub_[m[K = create_subscription<geometry_msgs::msg::TwistStamped>("navbot_controller/cmd_vel", 10,
+      |     [32m[K~~~~~~~~[m[K                                                                                                       
+gmake[2]: *** [CMakeFiles/simple_controller.dir/build.make:76: CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:142: CMakeFiles/simple_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

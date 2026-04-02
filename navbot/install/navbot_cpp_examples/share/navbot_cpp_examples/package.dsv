@@ -1,0 +1,6 @@
+source;share/navbot_cpp_examples/hook/cmake_prefix_path.dsv
+source;share/navbot_cpp_examples/hook/cmake_prefix_path.sh
+source;share/navbot_cpp_examples/local_setup.bash
+source;share/navbot_cpp_examples/local_setup.dsv
+source;share/navbot_cpp_examples/local_setup.sh
+source;share/navbot_cpp_examples/local_setup.zsh

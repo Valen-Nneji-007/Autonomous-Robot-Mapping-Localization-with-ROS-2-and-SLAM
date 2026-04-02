@@ -1,0 +1,42 @@
+[0.657s] Invoking command in '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_cpp_examples -DCMAKE_INSTALL_PREFIX=/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_cpp_examples
+[1.872s] -- The C compiler identification is GNU 13.3.0
+[3.640s] -- The CXX compiler identification is GNU 13.3.0
+[5.501s] -- Detecting C compiler ABI info
+[7.753s] -- Detecting C compiler ABI info - done
+[7.849s] -- Check for working C compiler: /usr/bin/cc - skipped
+[7.851s] -- Detecting C compile features
+[7.853s] -- Detecting C compile features - done
+[8.517s] -- Detecting CXX compiler ABI info
+[10.960s] -- Detecting CXX compiler ABI info - done
+[11.074s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[11.077s] -- Detecting CXX compile features
+[11.079s] -- Detecting CXX compile features - done
+[11.381s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[16.413s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[21.517s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[25.797s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[26.695s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[27.467s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[28.062s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[29.730s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[29.861s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[31.375s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[32.266s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[32.845s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[34.555s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[34.894s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[37.857s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[37.858s] -- Configured cppcheck include dirs: 
+[37.860s] -- Configured cppcheck exclude dirs and/or files: 
+[38.048s] -- Added test 'lint_cmake' to check CMake code style
+[38.447s] -- Added test 'uncrustify' to check C / C++ code style
+[38.448s] -- Configured uncrustify additional arguments: 
+[38.542s] -- Added test 'xmllint' to check XML markup files
+[38.880s] -- Configuring done (38.2s)
+[39.565s] -- Generating done (0.6s)
+[39.925s] -- Build files have been written to: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_cpp_examples
+[39.954s] Invoked command in '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_cpp_examples -DCMAKE_INSTALL_PREFIX=/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_cpp_examples
+[39.967s] Invoking command in '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_cpp_examples -- -j8 -l8
+[40.373s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_parameter.dir/src/simple_parameter.cpp.o[0m
+[48.543s] [100%] [32m[1mLinking CXX executable simple_parameter[0m
+[49.377s] [100%] Built target simple_parameter

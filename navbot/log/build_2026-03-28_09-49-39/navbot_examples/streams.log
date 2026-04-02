@@ -1,0 +1,23 @@
+[6.897s] Invoking command in '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_examples': PYTHONPATH=/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_examples/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/navbot_examples build --build-base /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_examples/build install --record /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_examples/install.log --single-version-externally-managed install_data
+[8.871s] running egg_info
+[8.969s] writing ../../build/navbot_examples/navbot_examples.egg-info/PKG-INFO
+[8.979s] writing dependency_links to ../../build/navbot_examples/navbot_examples.egg-info/dependency_links.txt
+[8.988s] writing entry points to ../../build/navbot_examples/navbot_examples.egg-info/entry_points.txt
+[8.996s] writing requirements to ../../build/navbot_examples/navbot_examples.egg-info/requires.txt
+[9.003s] writing top-level names to ../../build/navbot_examples/navbot_examples.egg-info/top_level.txt
+[9.266s] reading manifest file '../../build/navbot_examples/navbot_examples.egg-info/SOURCES.txt'
+[9.394s] writing manifest file '../../build/navbot_examples/navbot_examples.egg-info/SOURCES.txt'
+[9.403s] running build
+[9.405s] running build_py
+[9.531s] running install
+[9.556s] running install_lib
+[10.143s] running install_data
+[10.185s] running install_egg_info
+[10.303s] removing '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_examples/lib/python3.12/site-packages/navbot_examples-0.0.0-py3.12.egg-info' (and everything under it)
+[10.414s] Copying ../../build/navbot_examples/navbot_examples.egg-info to /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_examples/lib/python3.12/site-packages/navbot_examples-0.0.0-py3.12.egg-info
+[10.872s] running install_scripts
+[11.670s] Installing simple_parameter script to /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_examples/lib/navbot_examples
+[11.690s] Installing simple_turtlesim_kinematics script to /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_examples/lib/navbot_examples
+[11.707s] Installing valen_pub script to /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_examples/lib/navbot_examples
+[11.725s] Installing valen_subscribing script to /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_examples/lib/navbot_examples
+[11.745s] writing list of installed files to '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_examples/install.log'

@@ -1,0 +1,6 @@
+-- Configuring incomplete, errors occurred!
+[31mCMake Error at CMakeLists.txt:70:
+  Parse error.  Expected "(", got unquoted argument with text
+  "lib/${PROJECT_NAME}".
+
+[0m

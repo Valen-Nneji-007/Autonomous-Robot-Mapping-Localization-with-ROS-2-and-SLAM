@@ -1,0 +1,10 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o[0m
+[ 75%] Built target twist_relay
+[ 75%] Built target ament_cmake_python_copy_navbot_controller
+running egg_info
+writing navbot_controller.egg-info/PKG-INFO
+writing dependency_links to navbot_controller.egg-info/dependency_links.txt
+writing top-level names to navbot_controller.egg-info/top_level.txt
+reading manifest file 'navbot_controller.egg-info/SOURCES.txt'
+writing manifest file 'navbot_controller.egg-info/SOURCES.txt'
+[ 75%] Built target ament_cmake_python_build_navbot_controller_egg

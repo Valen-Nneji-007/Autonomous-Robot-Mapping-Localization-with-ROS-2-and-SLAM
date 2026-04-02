@@ -1,0 +1,17 @@
+[1.391s] Invoking command in '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_localization -- -j8 -l8
+[1.911s] [ 50%] [32mBuilding CXX object CMakeFiles/kalman_filter.dir/src/kalman_filter.cpp.o[0m
+[1.916s] [ 50%] [32mBuilding CXX object CMakeFiles/odometry_motion_model.dir/src/odometry_motion_model.cpp.o[0m
+[2.249s] [ 50%] Built target ament_cmake_python_copy_navbot_localization
+[3.691s] running egg_info
+[3.696s] creating navbot_localization.egg-info
+[3.780s] writing navbot_localization.egg-info/PKG-INFO
+[3.787s] writing dependency_links to navbot_localization.egg-info/dependency_links.txt
+[3.797s] writing top-level names to navbot_localization.egg-info/top_level.txt
+[3.807s] writing manifest file 'navbot_localization.egg-info/SOURCES.txt'
+[4.143s] reading manifest file 'navbot_localization.egg-info/SOURCES.txt'
+[4.201s] writing manifest file 'navbot_localization.egg-info/SOURCES.txt'
+[4.299s] [ 50%] Built target ament_cmake_python_build_navbot_localization_egg
+[30.188s] [ 75%] [32m[1mLinking CXX executable odometry_motion_model[0m
+[34.883s] [100%] [32m[1mLinking CXX executable kalman_filter[0m
+[38.562s] [100%] Built target odometry_motion_model
+[43.691s] [100%] Built target kalman_filter

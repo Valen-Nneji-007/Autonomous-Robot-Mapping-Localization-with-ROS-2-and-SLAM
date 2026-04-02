@@ -1,0 +1,9 @@
+setup.py
+navbot_controller/__init__.py
+navbot_controller/noisy_controller.py
+navbot_controller/simple_controller.py
+navbot_controller/twist_relay.py
+navbot_controller.egg-info/PKG-INFO
+navbot_controller.egg-info/SOURCES.txt
+navbot_controller.egg-info/dependency_links.txt
+navbot_controller.egg-info/top_level.txt

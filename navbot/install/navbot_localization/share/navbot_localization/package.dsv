@@ -1,0 +1,8 @@
+source;share/navbot_localization/hook/cmake_prefix_path.dsv
+source;share/navbot_localization/hook/cmake_prefix_path.sh
+source;share/navbot_localization/hook/pythonpath.dsv
+source;share/navbot_localization/hook/pythonpath.sh
+source;share/navbot_localization/local_setup.bash
+source;share/navbot_localization/local_setup.dsv
+source;share/navbot_localization/local_setup.sh
+source;share/navbot_localization/local_setup.zsh

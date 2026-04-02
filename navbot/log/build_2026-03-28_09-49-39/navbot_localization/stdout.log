@@ -1,0 +1,16 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/kalman_filter.dir/src/kalman_filter.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/odometry_motion_model.dir/src/odometry_motion_model.cpp.o[0m
+[ 50%] Built target ament_cmake_python_copy_navbot_localization
+running egg_info
+creating navbot_localization.egg-info
+writing navbot_localization.egg-info/PKG-INFO
+writing dependency_links to navbot_localization.egg-info/dependency_links.txt
+writing top-level names to navbot_localization.egg-info/top_level.txt
+writing manifest file 'navbot_localization.egg-info/SOURCES.txt'
+reading manifest file 'navbot_localization.egg-info/SOURCES.txt'
+writing manifest file 'navbot_localization.egg-info/SOURCES.txt'
+[ 50%] Built target ament_cmake_python_build_navbot_localization_egg
+[ 75%] [32m[1mLinking CXX executable odometry_motion_model[0m
+[100%] [32m[1mLinking CXX executable kalman_filter[0m
+[100%] Built target odometry_motion_model
+[100%] Built target kalman_filter

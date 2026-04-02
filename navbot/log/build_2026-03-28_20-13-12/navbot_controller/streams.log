@@ -1,0 +1,46 @@
+[0.079s] Invoking command in '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_controller -- -j8 -l8
+[0.532s] [ 50%] Built target twist_relay
+[0.654s] [ 50%] Built target ament_cmake_python_copy_navbot_controller
+[1.148s] [ 75%] [32mBuilding CXX object CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o[0m
+[1.192s] running egg_info
+[1.269s] writing navbot_controller.egg-info/PKG-INFO
+[1.273s] writing dependency_links to navbot_controller.egg-info/dependency_links.txt
+[1.280s] writing top-level names to navbot_controller.egg-info/top_level.txt
+[1.420s] reading manifest file 'navbot_controller.egg-info/SOURCES.txt'
+[1.456s] writing manifest file 'navbot_controller.egg-info/SOURCES.txt'
+[1.519s] [ 75%] Built target ament_cmake_python_build_navbot_controller_egg
+[7.264s] In file included from [01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_controller/src/simple_controller.cpp:1[m[K:
+[7.266s] [01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_controller/include/simple_controller.hpp:18:38:[m[K [01;31m[Kerror: [m[K‘[01m[KFloat64MultuArray[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’; did you mean ‘[01m[KFloat64MultiArray[m[K’?
+[7.268s]    18 |     rclcpp::Publisher<std_msgs::msg::[01;31m[KFloat64MultuArray[m[K>::SharedPtr wheel_cmd_pub_;
+[7.269s]       |                                      [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[7.270s]       |                                      [32m[KFloat64MultiArray[m[K
+[7.272s] [01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_controller/include/simple_controller.hpp:18:55:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.273s]    18 |     rclcpp::Publisher<std_msgs::msg::Float64MultuArray[01;31m[K>[m[K::SharedPtr wheel_cmd_pub_;
+[7.274s]       |                                                       [01;31m[K^[m[K
+[7.275s] [01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_controller/include/simple_controller.hpp:18:58:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[7.277s]    18 |     rclcpp::Publisher<std_msgs::msg::Float64MultuArray>::[01;31m[KSharedPtr[m[K wheel_cmd_pub_;
+[7.278s]       |                                                          [01;31m[K^~~~~~~~~[m[K
+[7.280s]       |                                                                   [32m[K;[m[K
+[7.281s] [01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_controller/include/simple_controller.hpp:18:68:[m[K [01;31m[Kerror: [m[K‘[01m[Kwheel_cmd_pub_[m[K’ does not name a type
+[7.282s]    18 |     rclcpp::Publisher<std_msgs::msg::Float64MultuArray>::SharedPtr [01;31m[Kwheel_cmd_pub_[m[K;
+[7.283s]       |                                                                    [01;31m[K^~~~~~~~~~~~~~[m[K
+[7.497s] [01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_controller/src/simple_controller.cpp:[m[K In constructor ‘[01m[KSimpleController::[01;32m[KSimpleController[m[K(const std::string&)[m[K’:
+[7.499s] [01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_controller/src/simple_controller.cpp:17:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kwheel_cmd_pub_[m[K’ was not declared in this scope
+[7.501s]    17 |     [01;31m[Kwheel_cmd_pub_[m[K = create_publisher<std_msgs::msg::Float64MultiArray>("simple_velocity_controller/commands", 10)
+[7.502s]       |     [01;31m[K^~~~~~~~~~~~~~[m[K
+[7.554s] [01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_controller/src/simple_controller.cpp:[m[K In member function ‘[01m[Kvoid SimpleController::[01;32m[KvelCallback[m[K(const geometry_msgs::msg::TwistStamped&)[m[K’:
+[7.555s] [01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_controller/src/simple_controller.cpp:37:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kwheel_cmd_pub_[m[K’ was not declared in this scope
+[7.557s]    37 |     [01;31m[Kwheel_cmd_pub_[m[K->publishe(wheel_speed_msg);
+[7.559s]       |     [01;31m[K^~~~~~~~~~~~~~[m[K
+[7.560s] [01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_controller/src/simple_controller.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[7.562s] [01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_controller/src/simple_controller.cpp:45:23:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kreturn[m[K’
+[7.563s]    45 |     rclcpp::shutdown()
+[7.564s]       |                       [01;31m[K^[m[K
+[7.565s]       |                       [32m[K;[m[K
+[7.566s]    46 | 
+[7.567s]    47 |     [32m[Kreturn[m[K 0;
+[7.568s]       |     [32m[K~~~~~~[m[K             
+[9.523s] gmake[2]: *** [CMakeFiles/simple_controller.dir/build.make:76: CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o] Error 1
+[9.527s] gmake[1]: *** [CMakeFiles/Makefile2:142: CMakeFiles/simple_controller.dir/all] Error 2
+[9.529s] gmake: *** [Makefile:146: all] Error 2
+[9.533s] Invoked command in '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_controller -- -j8 -l8

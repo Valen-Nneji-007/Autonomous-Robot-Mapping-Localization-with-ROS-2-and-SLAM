@@ -1,0 +1,44 @@
+[0.219s] Invoking command in '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_utils -DCMAKE_INSTALL_PREFIX=/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_utils
+[1.779s] -- The C compiler identification is GNU 13.3.0
+[3.591s] -- The CXX compiler identification is GNU 13.3.0
+[5.817s] -- Detecting C compiler ABI info
+[7.455s] -- Detecting C compiler ABI info - done
+[7.553s] -- Check for working C compiler: /usr/bin/cc - skipped
+[7.556s] -- Detecting C compile features
+[7.558s] -- Detecting C compile features - done
+[7.945s] -- Detecting CXX compiler ABI info
+[9.458s] -- Detecting CXX compiler ABI info - done
+[9.529s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[9.530s] -- Detecting CXX compile features
+[9.532s] -- Detecting CXX compile features - done
+[9.819s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[17.247s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[20.909s] -- Found rclpy: 7.1.9 (/opt/ros/jazzy/share/rclpy/cmake)
+[21.120s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[23.444s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[24.120s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[24.807s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[25.485s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[28.048s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[28.497s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[30.791s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[31.381s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[31.686s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[33.567s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[33.804s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[34.905s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[37.649s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[37.650s] -- Configured cppcheck include dirs: 
+[37.651s] -- Configured cppcheck exclude dirs and/or files: 
+[38.032s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[38.033s] -- Configured cpplint exclude dirs and/or files: 
+[38.144s] -- Added test 'flake8' to check Python code syntax and style conventions
+[38.145s] -- Configured 'flake8' exclude dirs and/or files: 
+[38.282s] -- Added test 'lint_cmake' to check CMake code style
+[38.416s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[38.764s] -- Added test 'uncrustify' to check C / C++ code style
+[38.765s] -- Configured uncrustify additional arguments: 
+[38.872s] -- Added test 'xmllint' to check XML markup files
+[39.155s] -- Configuring done (38.9s)
+[39.701s] -- Generating done (0.5s)
+[40.018s] -- Build files have been written to: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_utils

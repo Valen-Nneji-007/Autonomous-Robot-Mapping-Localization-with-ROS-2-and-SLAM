@@ -1,0 +1,11 @@
+[1.002s] Invoking command in '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_localization -- -j8 -l8
+[1.672s] [ 50%] Built target kalman_filter
+[1.687s] [100%] Built target odometry_motion_model
+[1.724s] [100%] Built target ament_cmake_python_copy_navbot_localization
+[2.365s] running egg_info
+[2.402s] writing navbot_localization.egg-info/PKG-INFO
+[2.409s] writing dependency_links to navbot_localization.egg-info/dependency_links.txt
+[2.415s] writing top-level names to navbot_localization.egg-info/top_level.txt
+[2.546s] reading manifest file 'navbot_localization.egg-info/SOURCES.txt'
+[2.593s] writing manifest file 'navbot_localization.egg-info/SOURCES.txt'
+[2.658s] [100%] Built target ament_cmake_python_build_navbot_localization_egg

@@ -1,0 +1,20 @@
+[0.270s] Invoking command in '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_controller -- -j8 -l8
+[1.300s] [ 25%] [32mBuilding CXX object CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o[0m
+[1.302s] [ 75%] Built target twist_relay
+[1.304s] [ 75%] Built target ament_cmake_python_copy_navbot_controller
+[1.908s] running egg_info
+[2.004s] writing navbot_controller.egg-info/PKG-INFO
+[2.040s] writing dependency_links to navbot_controller.egg-info/dependency_links.txt
+[2.048s] writing top-level names to navbot_controller.egg-info/top_level.txt
+[2.371s] reading manifest file 'navbot_controller.egg-info/SOURCES.txt'
+[2.488s] writing manifest file 'navbot_controller.egg-info/SOURCES.txt'
+[2.689s] [ 75%] Built target ament_cmake_python_build_navbot_controller_egg
+[4.261s] In file included from [01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_controller/src/simple_controller.cpp:1[m[K:
+[4.262s] [01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_controller/include/simple_controller.hpp:7:10:[m[K [01;31m[Kfatal error: [m[KEigen/Core: No such file or directory
+[4.265s]     7 | #include [01;31m[K<Eigen/Core>[m[K
+[4.268s]       |          [01;31m[K^~~~~~~~~~~~[m[K
+[4.270s] compilation terminated.
+[4.272s] gmake[2]: *** [CMakeFiles/simple_controller.dir/build.make:76: CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o] Error 1
+[4.275s] gmake[1]: *** [CMakeFiles/Makefile2:142: CMakeFiles/simple_controller.dir/all] Error 2
+[4.276s] gmake: *** [Makefile:146: all] Error 2
+[5.812s] Invoked command in '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_controller -- -j8 -l8

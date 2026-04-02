@@ -1,0 +1,47 @@
+[0.644s] Invoking command in '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_controller -DCMAKE_INSTALL_PREFIX=/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller
+[1.913s] -- The C compiler identification is GNU 13.3.0
+[3.548s] -- The CXX compiler identification is GNU 13.3.0
+[5.030s] -- Detecting C compiler ABI info
+[7.087s] -- Detecting C compiler ABI info - done
+[7.179s] -- Check for working C compiler: /usr/bin/cc - skipped
+[7.183s] -- Detecting C compile features
+[7.185s] -- Detecting C compile features - done
+[7.694s] -- Detecting CXX compiler ABI info
+[10.282s] -- Detecting CXX compiler ABI info - done
+[10.387s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[10.389s] -- Detecting CXX compile features
+[10.391s] -- Detecting CXX compile features - done
+[10.614s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[15.826s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[20.804s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[25.187s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[26.062s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[26.984s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[27.890s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[29.566s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[29.692s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[31.007s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[32.056s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[32.581s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[34.468s] -- Found rclpy: 7.1.9 (/opt/ros/jazzy/share/rclpy/cmake)
+[34.603s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[35.154s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[35.439s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[35.738s] -- Found tf2_ros: 0.36.19 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[39.118s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[41.574s] [31mCMake Error at CMakeLists.txt:66 (install):
+[41.575s]   install PROGRAMS given no DESTINATION!
+[41.577s] 
+[41.578s] [0m
+[42.839s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[42.841s] -- Configured cppcheck include dirs: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_controller/include
+[42.843s] -- Configured cppcheck exclude dirs and/or files: 
+[43.043s] -- Added test 'flake8' to check Python code syntax and style conventions
+[43.044s] -- Configured 'flake8' exclude dirs and/or files: 
+[43.333s] -- Added test 'lint_cmake' to check CMake code style
+[43.501s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[44.574s] -- Added test 'uncrustify' to check C / C++ code style
+[44.576s] -- Configured uncrustify additional arguments: 
+[44.746s] -- Added test 'xmllint' to check XML markup files
+[45.053s] -- Configuring incomplete, errors occurred!
+[45.109s] Invoked command in '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_controller' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_controller -DCMAKE_INSTALL_PREFIX=/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller

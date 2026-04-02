@@ -1,0 +1,11 @@
+[ 33%] Built target simple_parameter
+[ 66%] Built target simple_turtlesim_kinematics
+[ 83%] [32mBuilding CXX object CMakeFiles/simple_tf_kinematics.dir/src/simple_tf_kinematics.cpp.o[0m
+[01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_cpp_examples/src/simple_tf_kinematics.cpp:[m[K In member function ‘[01m[Kvoid SimpleTfKinematics::[01;32m[KtimerCallback[m[K()[m[K’:
+[01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_cpp_examples/src/simple_tf_kinematics.cpp:38:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing geometry_msgs::msg::TransformStamped = struct geometry_msgs::msg::TransformStamped_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::TransformStamped_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kchid_frame_id[m[K’; did you mean ‘[01m[Kchild_frame_id[m[K’?
+   38 |     dynamic_transform_stamped_.[01;31m[Kchid_frame_id[m[K = "navbot_base";
+      |                                [01;31m[K^~~~~~~~~~~~~[m[K
+      |                                [32m[Kchild_frame_id[m[K
+gmake[2]: *** [CMakeFiles/simple_tf_kinematics.dir/build.make:76: CMakeFiles/simple_tf_kinematics.dir/src/simple_tf_kinematics.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/simple_tf_kinematics.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

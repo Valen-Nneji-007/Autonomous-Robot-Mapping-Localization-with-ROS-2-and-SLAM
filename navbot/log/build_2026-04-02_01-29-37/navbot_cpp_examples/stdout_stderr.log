@@ -1,0 +1,20 @@
+[ 33%] Built target simple_parameter
+[ 66%] Built target simple_turtlesim_kinematics
+[ 83%] [32mBuilding CXX object CMakeFiles/simple_tf_kinematics.dir/src/simple_tf_kinematics.cpp.o[0m
+[01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_cpp_examples/src/simple_tf_kinematics.cpp:[m[K In constructor ‘[01m[KSimpleTfKinematics::[01;32m[KSimpleTfKinematics[m[K(const std::string&)[m[K’:
+[01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_cpp_examples/src/simple_tf_kinematics.cpp:30:69:[m[K [01;31m[Kerror: [m[K‘[01m[KtimerCallback[m[K’ is not a member of ‘[01m[KSimpleTfKinematics[m[K’
+   30 | wall_timer(0.1s, std::bind(&SimpleTfKinematics::[01;31m[KtimerCallback[m[K, this));
+      |                                                 [01;31m[K^~~~~~~~~~~~~[m[K
+
+[01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_cpp_examples/src/simple_tf_kinematics.cpp:[m[K At global scope:
+[01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_cpp_examples/src/simple_tf_kinematics.cpp:34:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid SimpleTfKinematics::[01;32m[KtimerCallback[m[K()[m[K’
+   34 | void [01;31m[KSimpleTfKinematics[m[K::timerCallback()
+      |      [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_cpp_examples/src/simple_tf_kinematics.cpp:34:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid SimpleTfKinematics::[01;32m[KtimerCallback[m[K()[m[K’
+In file included from [01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_cpp_examples/src/simple_tf_kinematics.cpp:1[m[K:
+[01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_cpp_examples/include/navbot_cpp_examples/simple_tf_kinematics.hpp:11:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass SimpleTfKinematics[m[K’ defined here
+   11 | class [01;36m[KSimpleTfKinematics[m[K : public rclcpp::Node
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/simple_tf_kinematics.dir/build.make:76: CMakeFiles/simple_tf_kinematics.dir/src/simple_tf_kinematics.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/simple_tf_kinematics.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
