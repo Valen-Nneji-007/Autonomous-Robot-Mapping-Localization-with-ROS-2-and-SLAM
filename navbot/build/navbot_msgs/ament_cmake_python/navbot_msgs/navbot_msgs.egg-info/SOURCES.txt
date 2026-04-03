@@ -1,0 +1,8 @@
+setup.py
+navbot_msgs/__init__.py
+navbot_msgs.egg-info/PKG-INFO
+navbot_msgs.egg-info/SOURCES.txt
+navbot_msgs.egg-info/dependency_links.txt
+navbot_msgs.egg-info/top_level.txt
+navbot_msgs/srv/__init__.py
+navbot_msgs/srv/_add_two_ints.py

@@ -1,0 +1,14 @@
+[1.199s] Invoking command in '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_examples:/opt/ros/jazzy /usr/bin/cmake --build /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_cpp_examples -- -j8 -l8
+[3.951s] [ 30%] Built target simple_parameter
+[3.970s] [ 40%] Built target simple_turtlesim_kinematics
+[4.031s] [ 60%] Built target simple_tf_kinematics
+[4.125s] [ 80%] Built target simple_service_server
+[6.729s] [ 90%] [32mBuilding CXX object CMakeFiles/simple_service_client.dir/src/simple_service_client.cpp.o[0m
+[20.657s] [01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_cpp_examples/src/simple_service_client.cpp:[m[K In constructor ‘[01m[KSimpleServiceClient::[01;32m[KSimpleServiceClient[m[K(int, int)[m[K’:
+[20.662s] [01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_cpp_examples/src/simple_service_client.cpp:20:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kls[m[K’ was not declared in this scope
+[20.664s]    20 |         while(client_ ->wait_for_service([01;31m[Kls[m[K))
+[20.666s]       |                                          [01;31m[K^~[m[K
+[22.888s] gmake[2]: *** [CMakeFiles/simple_service_client.dir/build.make:76: CMakeFiles/simple_service_client.dir/src/simple_service_client.cpp.o] Error 1
+[22.890s] gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/simple_service_client.dir/all] Error 2
+[22.891s] gmake: *** [Makefile:146: all] Error 2
+[23.175s] Invoked command in '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_cpp_examples' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_examples:/opt/ros/jazzy /usr/bin/cmake --build /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_cpp_examples -- -j8 -l8

@@ -1,0 +1,12 @@
+[ 30%] Built target simple_parameter
+[ 40%] Built target simple_turtlesim_kinematics
+[ 60%] Built target simple_tf_kinematics
+[ 80%] Built target simple_service_server
+[ 90%] [32mBuilding CXX object CMakeFiles/simple_service_client.dir/src/simple_service_client.cpp.o[0m
+[01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_cpp_examples/src/simple_service_client.cpp:[m[K In constructor ‘[01m[KSimpleServiceClient::[01;32m[KSimpleServiceClient[m[K(int, int)[m[K’:
+[01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_cpp_examples/src/simple_service_client.cpp:20:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kls[m[K’ was not declared in this scope
+   20 |         while(client_ ->wait_for_service([01;31m[Kls[m[K))
+      |                                          [01;31m[K^~[m[K
+gmake[2]: *** [CMakeFiles/simple_service_client.dir/build.make:76: CMakeFiles/simple_service_client.dir/src/simple_service_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/simple_service_client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

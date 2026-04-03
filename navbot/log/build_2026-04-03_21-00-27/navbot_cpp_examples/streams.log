@@ -1,0 +1,29 @@
+[1.194s] Invoking command in '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_examples:/opt/ros/jazzy /usr/bin/cmake --build /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_cpp_examples -- -j8 -l8
+[4.721s] [ 40%] Built target simple_parameter
+[4.746s] [ 60%] Built target simple_tf_kinematics
+[4.757s] [ 60%] Built target simple_turtlesim_kinematics
+[5.062s] [ 80%] Built target simple_service_server
+[8.021s] [ 90%] [32mBuilding CXX object CMakeFiles/simple_service_client.dir/src/simple_service_client.cpp.o[0m
+[21.660s] [01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_cpp_examples/src/simple_service_client.cpp:13:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K{[m[K’ token
+[21.662s]    13 |     [01;31m[K{[m[K
+[21.665s]       |     [01;31m[K^[m[K
+[21.679s] [01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_cpp_examples/src/simple_service_client.cpp:[m[K In constructor ‘[01m[KSimpleServiceClient::[01;32m[KSimpleServiceClient[m[K(int, int)[m[K’:
+[21.681s] [01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_cpp_examples/src/simple_service_client.cpp:12:70:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ at end of input
+[21.682s]    12 | erviceClient(int a, int b) : Node("simple_service_client")[01;31m[K;[m[K
+[21.683s]       |                                                           [01;31m[K^[m[K
+[21.684s] 
+[21.685s] [01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_cpp_examples/src/simple_service_client.cpp:12:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ka[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[21.686s]    12 |     SimpleServiceClient([01;35m[Kint a[m[K, int b) : Node("simple_service_client");
+[21.687s]       |                         [01;35m[K~~~~^[m[K
+[21.688s] [01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_cpp_examples/src/simple_service_client.cpp:12:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kb[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[21.689s]    12 |     SimpleServiceClient(int a, [01;35m[Kint b[m[K) : Node("simple_service_client");
+[21.690s]       |                                [01;35m[K~~~~^[m[K
+[21.693s] [01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_cpp_examples/src/simple_service_client.cpp:[m[K In member function ‘[01m[Kvoid SimpleServiceClient::[01;32m[KresponseCallback[m[K(rclcpp::Client<navbot_msgs::srv::AddTwoInts>::SharedFuture)[m[K’:
+[21.694s] [01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_cpp_examples/src/simple_service_client.cpp:38:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kfutrue[m[K’ was not declared in this scope; did you mean ‘[01m[Kfuture[m[K’?
+[21.695s]    38 |         if([01;31m[Kfutrue[m[K.valid())
+[21.697s]       |            [01;31m[K^~~~~~[m[K
+[21.698s]       |            [32m[Kfuture[m[K
+[23.004s] gmake[2]: *** [CMakeFiles/simple_service_client.dir/build.make:76: CMakeFiles/simple_service_client.dir/src/simple_service_client.cpp.o] Error 1
+[23.007s] gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/simple_service_client.dir/all] Error 2
+[23.008s] gmake: *** [Makefile:146: all] Error 2
+[23.648s] Invoked command in '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_cpp_examples' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_examples:/opt/ros/jazzy /usr/bin/cmake --build /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_cpp_examples -- -j8 -l8

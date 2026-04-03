@@ -10,6 +10,8 @@ setup.py
 ../../build/navbot_examples/navbot_examples.egg-info/zip-safe
 navbot_examples/__init__.py
 navbot_examples/simple_parameter.py
+navbot_examples/simple_service_client.py
+navbot_examples/simple_service_server.py
 navbot_examples/simple_tf_kinematics.py
 navbot_examples/simple_turtlesim_kinematics.py
 navbot_examples/valen_pub.py

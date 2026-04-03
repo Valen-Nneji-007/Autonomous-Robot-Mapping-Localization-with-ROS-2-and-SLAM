@@ -1,0 +1,27 @@
+[ 40%] Built target simple_parameter
+[ 60%] Built target simple_tf_kinematics
+[ 60%] Built target simple_turtlesim_kinematics
+[ 80%] Built target simple_service_server
+[ 90%] [32mBuilding CXX object CMakeFiles/simple_service_client.dir/src/simple_service_client.cpp.o[0m
+[01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_cpp_examples/src/simple_service_client.cpp:13:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K{[m[K’ token
+   13 |     [01;31m[K{[m[K
+      |     [01;31m[K^[m[K
+[01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_cpp_examples/src/simple_service_client.cpp:[m[K In constructor ‘[01m[KSimpleServiceClient::[01;32m[KSimpleServiceClient[m[K(int, int)[m[K’:
+[01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_cpp_examples/src/simple_service_client.cpp:12:70:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ at end of input
+   12 | erviceClient(int a, int b) : Node("simple_service_client")[01;31m[K;[m[K
+      |                                                           [01;31m[K^[m[K
+
+[01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_cpp_examples/src/simple_service_client.cpp:12:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ka[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   12 |     SimpleServiceClient([01;35m[Kint a[m[K, int b) : Node("simple_service_client");
+      |                         [01;35m[K~~~~^[m[K
+[01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_cpp_examples/src/simple_service_client.cpp:12:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kb[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   12 |     SimpleServiceClient(int a, [01;35m[Kint b[m[K) : Node("simple_service_client");
+      |                                [01;35m[K~~~~^[m[K
+[01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_cpp_examples/src/simple_service_client.cpp:[m[K In member function ‘[01m[Kvoid SimpleServiceClient::[01;32m[KresponseCallback[m[K(rclcpp::Client<navbot_msgs::srv::AddTwoInts>::SharedFuture)[m[K’:
+[01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_cpp_examples/src/simple_service_client.cpp:38:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kfutrue[m[K’ was not declared in this scope; did you mean ‘[01m[Kfuture[m[K’?
+   38 |         if([01;31m[Kfutrue[m[K.valid())
+      |            [01;31m[K^~~~~~[m[K
+      |            [32m[Kfuture[m[K
+gmake[2]: *** [CMakeFiles/simple_service_client.dir/build.make:76: CMakeFiles/simple_service_client.dir/src/simple_service_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/simple_service_client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

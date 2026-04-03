@@ -28,7 +28,10 @@ setup(
             'simple_turtlesim_kinematics = navbot_examples.simple_turtlesim_kinematics:main',
             'valen_pub = navbot_examples.valen_pub:main',
             'valen_subscribing = navbot_examples.valen_subscribing:main',
-            'simple_tf_kinematics = navbot_examples.simple_tf_kinematics:main'
+            'simple_tf_kinematics = navbot_examples.simple_tf_kinematics:main',
+            'simple_service_server = navbot_examples.simple_service_server:main',
+
+            'simple_service_client = navbot_examples.simple_service_client:main'
         ],
     },
 )

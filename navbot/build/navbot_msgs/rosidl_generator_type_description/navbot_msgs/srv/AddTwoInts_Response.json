@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "navbot_msgs/srv/AddTwoInts_Response",
+      "fields": [
+        {
+          "name": "sum",
+          "type": {
+            "type_id": 8,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "navbot_msgs/srv/AddTwoInts_Response",
+      "hash_string": "RIHS01_00e7f825d185f64d97ec01d37fc2a5ec614ec66524dab781b5ac80bddf82f4a7"
+    }
+  ]
+}

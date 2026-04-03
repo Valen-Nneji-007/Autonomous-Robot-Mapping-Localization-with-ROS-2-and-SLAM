@@ -1,5 +1,9 @@
 source;share/navbot_msgs/hook/cmake_prefix_path.dsv
 source;share/navbot_msgs/hook/cmake_prefix_path.sh
+source;share/navbot_msgs/hook/ld_library_path_lib.dsv
+source;share/navbot_msgs/hook/ld_library_path_lib.sh
+source;share/navbot_msgs/hook/pythonpath.dsv
+source;share/navbot_msgs/hook/pythonpath.sh
 source;share/navbot_msgs/local_setup.bash
 source;share/navbot_msgs/local_setup.dsv
 source;share/navbot_msgs/local_setup.sh
