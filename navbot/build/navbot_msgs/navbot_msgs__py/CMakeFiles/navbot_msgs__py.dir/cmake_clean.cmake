@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_msgs/rosidl_generator_py/navbot_msgs/srv/__init__.py"
   "/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_msgs/rosidl_generator_py/navbot_msgs/srv/_add_two_ints.py"
   "/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_msgs/rosidl_generator_py/navbot_msgs/srv/_add_two_ints_s.c"
+  "/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_msgs/rosidl_generator_py/navbot_msgs/srv/_get_transform.py"
+  "/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_msgs/rosidl_generator_py/navbot_msgs/srv/_get_transform_s.c"
   "CMakeFiles/navbot_msgs__py"
 )
 

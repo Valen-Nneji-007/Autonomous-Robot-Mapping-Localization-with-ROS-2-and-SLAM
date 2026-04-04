@@ -1,0 +1,24 @@
+[1.698s] Invoking command in '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_examples:/opt/ros/jazzy /usr/bin/cmake --build /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_msgs -- -j8 -l8
+[3.283s] [  2%] Built target navbot_msgs__rosidl_generator_type_description
+[4.483s] [  4%] Built target navbot_msgs__cpp
+[5.193s] [ 22%] Built target navbot_msgs__rosidl_generator_c
+[5.596s] [ 22%] Built target ament_cmake_python_copy_navbot_msgs
+[6.326s] [ 36%] Built target navbot_msgs__rosidl_typesupport_c
+[6.360s] [ 40%] Built target navbot_msgs__rosidl_typesupport_cpp
+[6.479s] [ 56%] Built target navbot_msgs__rosidl_typesupport_introspection_c
+[6.494s] [ 59%] Built target navbot_msgs__rosidl_typesupport_introspection_cpp
+[6.597s] [ 68%] Built target navbot_msgs__rosidl_typesupport_fastrtps_c
+[6.665s] [ 77%] Built target navbot_msgs__rosidl_typesupport_fastrtps_cpp
+[7.113s] [ 77%] Built target navbot_msgs
+[7.992s] [ 79%] Built target navbot_msgs__py
+[9.054s] [ 86%] Built target navbot_msgs__rosidl_generator_py
+[9.645s] [ 95%] Built target navbot_msgs_s__rosidl_typesupport_introspection_c
+[9.648s] [ 95%] Built target navbot_msgs_s__rosidl_typesupport_c
+[9.711s] [100%] Built target navbot_msgs_s__rosidl_typesupport_fastrtps_c
+[10.704s] running egg_info
+[10.813s] writing navbot_msgs.egg-info/PKG-INFO
+[10.824s] writing dependency_links to navbot_msgs.egg-info/dependency_links.txt
+[10.838s] writing top-level names to navbot_msgs.egg-info/top_level.txt
+[11.228s] reading manifest file 'navbot_msgs.egg-info/SOURCES.txt'
+[11.301s] writing manifest file 'navbot_msgs.egg-info/SOURCES.txt'
+[11.522s] [100%] Built target ament_cmake_python_build_navbot_msgs_egg

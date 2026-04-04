@@ -1,0 +1,67 @@
+[1.380s] Invoking command in '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_examples:/opt/ros/jazzy /usr/bin/cmake --build /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_controller -- -j8 -l8
+[2.833s] [ 50%] Built target twist_relay
+[3.032s] [100%] Built target simple_controller
+[3.172s] [100%] Built target ament_cmake_python_copy_navbot_controller
+[7.617s] running egg_info
+[7.756s] writing navbot_controller.egg-info/PKG-INFO
+[7.771s] writing dependency_links to navbot_controller.egg-info/dependency_links.txt
+[7.786s] writing top-level names to navbot_controller.egg-info/top_level.txt
+[8.231s] reading manifest file 'navbot_controller.egg-info/SOURCES.txt'
+[8.313s] writing manifest file 'navbot_controller.egg-info/SOURCES.txt'
+[8.485s] [100%] Built target ament_cmake_python_build_navbot_controller_egg
+[9.904s] Invoked command in '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_examples:/opt/ros/jazzy /usr/bin/cmake --build /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_controller -- -j8 -l8
+[9.934s] Invoking command in '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_examples:/opt/ros/jazzy /usr/bin/cmake --install /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_controller
+[10.058s] -- Install configuration: ""
+[10.104s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller/share/navbot_controller/environment/pythonpath.sh
+[10.172s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller/share/navbot_controller/environment/pythonpath.dsv
+[10.228s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller/lib/python3.12/site-packages/navbot_controller-0.0.0-py3.12.egg-info
+[10.330s] -- Installing: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller/lib/python3.12/site-packages/navbot_controller-0.0.0-py3.12.egg-info/dependency_links.txt
+[10.558s] -- Installing: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller/lib/python3.12/site-packages/navbot_controller-0.0.0-py3.12.egg-info/PKG-INFO
+[10.762s] -- Installing: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller/lib/python3.12/site-packages/navbot_controller-0.0.0-py3.12.egg-info/SOURCES.txt
+[10.918s] -- Installing: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller/lib/python3.12/site-packages/navbot_controller-0.0.0-py3.12.egg-info/top_level.txt
+[11.062s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller/lib/python3.12/site-packages/navbot_controller
+[11.112s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller/lib/python3.12/site-packages/navbot_controller/noisy_controller.py
+[11.160s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller/lib/python3.12/site-packages/navbot_controller/simple_controller.py
+[11.207s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller/lib/python3.12/site-packages/navbot_controller/twist_relay.py
+[11.255s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller/lib/python3.12/site-packages/navbot_controller/__init__.py
+[12.322s] Listing '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller/lib/python3.12/site-packages/navbot_controller'...
+[12.325s] Compiling '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller/lib/python3.12/site-packages/navbot_controller/twist_relay.py'...
+[12.327s] ***   File "/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller/lib/python3.12/site-packages/navbot_controller/twist_relay.py", line 48
+[12.332s]     if __name__ = "__main__":
+[12.335s]        ^^^^^^^^^^^^^^^^^^^^^
+[12.337s] SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+[12.339s] 
+[12.363s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller/include/include
+[12.402s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller/include/include/navbot_controller
+[12.454s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller/include/include/simple_controller.hpp
+[12.551s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller/lib/navbot_controller/simple_controller
+[12.713s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller/lib/navbot_controller/twist_relay
+[12.819s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller/share/navbot_controller/launch
+[12.872s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller/share/navbot_controller/launch/controller.launch.py
+[12.913s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller/share/navbot_controller/launch/joystick_teleop.launch.py
+[12.947s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller/share/navbot_controller/config
+[12.991s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller/share/navbot_controller/config/joy_config.yaml
+[13.030s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller/share/navbot_controller/config/joy_teleop.yaml
+[13.070s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller/share/navbot_controller/config/navbot_controllers.yaml
+[13.104s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller/share/navbot_controller/config/twist_mux_joy.yaml
+[13.141s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller/share/navbot_controller/config/twist_mux_locks.yaml
+[13.181s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller/share/navbot_controller/config/twist_mux_topic.yaml
+[13.218s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller/lib/navbot_controller/simple_controller.py
+[13.257s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller/lib/navbot_controller/noisy_controller.py
+[13.292s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller/lib/navbot_controller/twist_relay.py
+[13.355s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller/share/ament_index/resource_index/package_run_dependencies/navbot_controller
+[13.416s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller/share/ament_index/resource_index/parent_prefix_path/navbot_controller
+[13.447s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller/share/navbot_controller/environment/ament_prefix_path.sh
+[13.521s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller/share/navbot_controller/environment/ament_prefix_path.dsv
+[13.579s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller/share/navbot_controller/environment/path.sh
+[13.621s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller/share/navbot_controller/environment/path.dsv
+[13.683s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller/share/navbot_controller/local_setup.bash
+[13.732s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller/share/navbot_controller/local_setup.sh
+[13.800s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller/share/navbot_controller/local_setup.zsh
+[13.842s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller/share/navbot_controller/local_setup.dsv
+[13.904s] -- Installing: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller/share/navbot_controller/package.dsv
+[14.242s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller/share/ament_index/resource_index/packages/navbot_controller
+[14.293s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller/share/navbot_controller/cmake/navbot_controllerConfig.cmake
+[14.321s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller/share/navbot_controller/cmake/navbot_controllerConfig-version.cmake
+[14.367s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller/share/navbot_controller/package.xml
+[15.178s] Invoked command in '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_examples:/opt/ros/jazzy /usr/bin/cmake --install /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_controller

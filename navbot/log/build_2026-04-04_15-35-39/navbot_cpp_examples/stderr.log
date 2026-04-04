@@ -1,0 +1,76 @@
+In file included from [01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_cpp_examples/src/simple_tf_kinematics.cpp:1[m[K:
+[01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_cpp_examples/include/navbot_cpp_examples/simple_tf_kinematics.hpp:38:66:[m[K [01;31m[Kerror: [m[K‘[01m[KSrv[m[K’ is not a member of ‘[01m[Knavbot_msgs[m[K’; did you mean ‘[01m[Ksrv[m[K’?
+   38 |     bool getTransformCallback(const std::shared_ptr<navbot_msgs::[01;31m[KSrv[m[K::GetTransform::Request> req,
+      |                                                                  [01;31m[K^~~[m[K
+      |                                                                  [32m[Ksrv[m[K
+[01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_cpp_examples/include/navbot_cpp_examples/simple_tf_kinematics.hpp:38:92:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   38 |     bool getTransformCallback(const std::shared_ptr<navbot_msgs::Srv::GetTransform::Request[01;31m[K>[m[K req,
+      |                                                                                            [01;31m[K^[m[K
+[01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_cpp_examples/include/navbot_cpp_examples/simple_tf_kinematics.hpp:38:66:[m[K [01;31m[Kerror: [m[K‘[01m[KSrv[m[K’ is not a member of ‘[01m[Knavbot_msgs[m[K’; did you mean ‘[01m[Ksrv[m[K’?
+   38 |     bool getTransformCallback(const std::shared_ptr<navbot_msgs::[01;31m[KSrv[m[K::GetTransform::Request> req,
+      |                                                                  [01;31m[K^~~[m[K
+      |                                                                  [32m[Ksrv[m[K
+[01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_cpp_examples/include/navbot_cpp_examples/simple_tf_kinematics.hpp:38:92:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   38 |     bool getTransformCallback(const std::shared_ptr<navbot_msgs::Srv::GetTransform::Request[01;31m[K>[m[K req,
+      |                                                                                            [01;31m[K^[m[K
+[01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_cpp_examples/include/navbot_cpp_examples/simple_tf_kinematics.hpp:38:66:[m[K [01;31m[Kerror: [m[K‘[01m[KSrv[m[K’ is not a member of ‘[01m[Knavbot_msgs[m[K’; did you mean ‘[01m[Ksrv[m[K’?
+   38 |     bool getTransformCallback(const std::shared_ptr<navbot_msgs::[01;31m[KSrv[m[K::GetTransform::Request> req,
+      |                                                                  [01;31m[K^~~[m[K
+      |                                                                  [32m[Ksrv[m[K
+[01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_cpp_examples/include/navbot_cpp_examples/simple_tf_kinematics.hpp:38:92:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   38 |     bool getTransformCallback(const std::shared_ptr<navbot_msgs::Srv::GetTransform::Request[01;31m[K>[m[K req,
+      |                                                                                            [01;31m[K^[m[K
+[01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_cpp_examples/include/navbot_cpp_examples/simple_tf_kinematics.hpp:38:37:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+   38 |     bool getTransformCallback(const [01;31m[Kstd[m[K::shared_ptr<navbot_msgs::Srv::GetTransform::Request> req,
+      |                                     [01;31m[K^~~[m[K
+[01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_cpp_examples/include/navbot_cpp_examples/simple_tf_kinematics.hpp:38:66:[m[K [01;31m[Kerror: [m[K‘[01m[Knavbot_msgs::Srv[m[K’ has not been declared
+   38 |     bool getTransformCallback(const std::shared_ptr<navbot_msgs::[01;31m[KSrv[m[K::GetTransform::Request> req,
+      |                                                                  [01;31m[K^~~[m[K
+[01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_cpp_examples/include/navbot_cpp_examples/simple_tf_kinematics.hpp:38:31:[m[K [01;31m[Kerror: [m[Kmissing template argument list after ‘[01m[Kstd::shared_ptr[m[K’; template placeholder not permitted in parameter
+   38 |     bool getTransformCallback([01;31m[Kconst[m[K std::shared_ptr<navbot_msgs::Srv::GetTransform::Request> req,
+      |                               [01;31m[K^~~~~[m[K
+      |                                    [32m[K<>[m[K
+In file included from [01m[K/usr/include/c++/13/bits/shared_ptr.h:53[m[K,
+                 from [01m[K/usr/include/c++/13/memory:80[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:169[m[K,
+                 from [01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_cpp_examples/include/navbot_cpp_examples/simple_tf_kinematics.hpp:4[m[K:
+[01m[K/usr/include/c++/13/bits/shared_ptr_base.h:395:11:[m[K [01;36m[Knote: [m[K‘[01m[Ktemplate<class _Tp> class std::shared_ptr[m[K’ declared here
+  395 |     class [01;36m[Kshared_ptr[m[K;
+      |           [01;36m[K^~~~~~~~~~[m[K
+[01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_cpp_examples/include/navbot_cpp_examples/simple_tf_kinematics.hpp:39:68:[m[K [01;31m[Kerror: [m[K‘[01m[KSrv[m[K’ is not a member of ‘[01m[Knavbot_msgs[m[K’; did you mean ‘[01m[Ksrv[m[K’?
+   39 |                                 const std::shared_ptr<navbot_msgs::[01;31m[KSrv[m[K::GetTransform::Response> res);
+      |                                                                    [01;31m[K^~~[m[K
+      |                                                                    [32m[Ksrv[m[K
+[01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_cpp_examples/include/navbot_cpp_examples/simple_tf_kinematics.hpp:39:95:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   39 |                                 const std::shared_ptr<navbot_msgs::Srv::GetTransform::Response[01;31m[K>[m[K res);
+      |                                                                                               [01;31m[K^[m[K
+[01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_cpp_examples/include/navbot_cpp_examples/simple_tf_kinematics.hpp:39:68:[m[K [01;31m[Kerror: [m[K‘[01m[KSrv[m[K’ is not a member of ‘[01m[Knavbot_msgs[m[K’; did you mean ‘[01m[Ksrv[m[K’?
+   39 |                                 const std::shared_ptr<navbot_msgs::[01;31m[KSrv[m[K::GetTransform::Response> res);
+      |                                                                    [01;31m[K^~~[m[K
+      |                                                                    [32m[Ksrv[m[K
+[01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_cpp_examples/include/navbot_cpp_examples/simple_tf_kinematics.hpp:39:95:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   39 |                                 const std::shared_ptr<navbot_msgs::Srv::GetTransform::Response[01;31m[K>[m[K res);
+      |                                                                                               [01;31m[K^[m[K
+[01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_cpp_examples/include/navbot_cpp_examples/simple_tf_kinematics.hpp:39:68:[m[K [01;31m[Kerror: [m[K‘[01m[KSrv[m[K’ is not a member of ‘[01m[Knavbot_msgs[m[K’; did you mean ‘[01m[Ksrv[m[K’?
+   39 |                                 const std::shared_ptr<navbot_msgs::[01;31m[KSrv[m[K::GetTransform::Response> res);
+      |                                                                    [01;31m[K^~~[m[K
+      |                                                                    [32m[Ksrv[m[K
+[01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_cpp_examples/include/navbot_cpp_examples/simple_tf_kinematics.hpp:39:95:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   39 |                                 const std::shared_ptr<navbot_msgs::Srv::GetTransform::Response[01;31m[K>[m[K res);
+      |                                                                                               [01;31m[K^[m[K
+[01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_cpp_examples/include/navbot_cpp_examples/simple_tf_kinematics.hpp:39:39:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+   39 |                                 const [01;31m[Kstd[m[K::shared_ptr<navbot_msgs::Srv::GetTransform::Response> res);
+      |                                       [01;31m[K^~~[m[K
+[01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_cpp_examples/include/navbot_cpp_examples/simple_tf_kinematics.hpp:39:68:[m[K [01;31m[Kerror: [m[K‘[01m[Knavbot_msgs::Srv[m[K’ has not been declared
+   39 |                                 const std::shared_ptr<navbot_msgs::[01;31m[KSrv[m[K::GetTransform::Response> res);
+      |                                                                    [01;31m[K^~~[m[K
+[01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_cpp_examples/include/navbot_cpp_examples/simple_tf_kinematics.hpp:39:33:[m[K [01;31m[Kerror: [m[Kmissing template argument list after ‘[01m[Kstd::shared_ptr[m[K’; template placeholder not permitted in parameter
+   39 |                                 [01;31m[Kconst[m[K std::shared_ptr<navbot_msgs::Srv::GetTransform::Response> res);
+      |                                 [01;31m[K^~~~~[m[K
+      |                                      [32m[K<>[m[K
+[01m[K/usr/include/c++/13/bits/shared_ptr_base.h:395:11:[m[K [01;36m[Knote: [m[K‘[01m[Ktemplate<class _Tp> class std::shared_ptr[m[K’ declared here
+  395 |     class [01;36m[Kshared_ptr[m[K;
+      |           [01;36m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/simple_tf_kinematics.dir/build.make:76: CMakeFiles/simple_tf_kinematics.dir/src/simple_tf_kinematics.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:197: CMakeFiles/simple_tf_kinematics.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

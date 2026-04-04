@@ -2,6 +2,7 @@ import rclpy
 from rclpy.node import Node
 from navbot_msgs.srv import AddTwoInts
 
+
 class SimpleServiceServer(Node):
     def __init__(self):
         super().__init__("simple_service_server")

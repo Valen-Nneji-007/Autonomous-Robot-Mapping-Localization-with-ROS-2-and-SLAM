@@ -1,6 +1,7 @@
 {
   "package_name": "navbot_msgs",
   "non_idl_tuples": [
-    "/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_msgs:srv/AddTwoInts.srv"
+    "/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_msgs:srv/AddTwoInts.srv",
+    "/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_msgs:srv/GetTransform.srv"
   ]
 }

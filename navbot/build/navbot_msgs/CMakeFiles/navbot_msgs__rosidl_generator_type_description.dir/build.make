@@ -67,15 +67,21 @@ include CMakeFiles/navbot_msgs__rosidl_generator_type_description.dir/compiler_d
 include CMakeFiles/navbot_msgs__rosidl_generator_type_description.dir/progress.make
 
 CMakeFiles/navbot_msgs__rosidl_generator_type_description: rosidl_generator_type_description/navbot_msgs/srv/AddTwoInts.json
+CMakeFiles/navbot_msgs__rosidl_generator_type_description: rosidl_generator_type_description/navbot_msgs/srv/GetTransform.json
 
 rosidl_generator_type_description/navbot_msgs/srv/AddTwoInts.json: /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description
 rosidl_generator_type_description/navbot_msgs/srv/AddTwoInts.json: /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_type_description/__init__.py
 rosidl_generator_type_description/navbot_msgs/srv/AddTwoInts.json: rosidl_adapter/navbot_msgs/srv/AddTwoInts.idl
+rosidl_generator_type_description/navbot_msgs/srv/AddTwoInts.json: rosidl_adapter/navbot_msgs/srv/GetTransform.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating type hashes for ROS interfaces"
 	/usr/bin/python3 /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description --generator-arguments-file /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_msgs/rosidl_generator_type_description__arguments.json
 
+rosidl_generator_type_description/navbot_msgs/srv/GetTransform.json: rosidl_generator_type_description/navbot_msgs/srv/AddTwoInts.json
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_type_description/navbot_msgs/srv/GetTransform.json
+
 navbot_msgs__rosidl_generator_type_description: CMakeFiles/navbot_msgs__rosidl_generator_type_description
 navbot_msgs__rosidl_generator_type_description: rosidl_generator_type_description/navbot_msgs/srv/AddTwoInts.json
+navbot_msgs__rosidl_generator_type_description: rosidl_generator_type_description/navbot_msgs/srv/GetTransform.json
 navbot_msgs__rosidl_generator_type_description: CMakeFiles/navbot_msgs__rosidl_generator_type_description.dir/build.make
 .PHONY : navbot_msgs__rosidl_generator_type_description
 

@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/navbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/navbot_msgs/srv/_add_two_ints_s.c.o"
   "CMakeFiles/navbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/navbot_msgs/srv/_add_two_ints_s.c.o.d"
+  "CMakeFiles/navbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/navbot_msgs/srv/_get_transform_s.c.o"
+  "CMakeFiles/navbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/navbot_msgs/srv/_get_transform_s.c.o.d"
   "libnavbot_msgs__rosidl_generator_py.pdb"
   "libnavbot_msgs__rosidl_generator_py.so"
 )

@@ -11,6 +11,9 @@ SimpleTfKinematics::SimpleTfKinematics(const std::string &name)
 
     dynamic_tf_broadcaster_ =std::make_unique<tf2_ros::TransformBroadcaster>(*this);
 
+    tf_buffer_ = std::make_unique<tf2_ros::Buffer>(get_clock());
+    tf_listener_ = std::make_shared<tf2_ros::TransformListener>(*tf_buffer_);
+
     static_transform_stamped_.header.stamp = get_clock()->now();
     static_transform_stamped_.header.frame_id = "navbot_base";
     static_transform_stamped_.child_frame_id = "navbot_top";
@@ -28,6 +31,8 @@ SimpleTfKinematics::SimpleTfKinematics(const std::string &name)
      static_transform_stamped_.header.frame_id << "  and " << static_transform_stamped_.child_frame_id);
 
     timer_ = create_wall_timer(0.1s, std::bind(&SimpleTfKinematics::timerCallback, this));
+
+    get_transform_srv_ = create_service<navbot_msgs::srv::GetTransform>("get_transform", std::(&SimpleTfKinematics::getTransformCallback, this , _1, _2));
 
 }
 
@@ -49,6 +54,32 @@ void SimpleTfKinematics::timerCallback()
     last_x_ = dynamic_transform_stamped_.transform.translation.x;
 
 }
+bool SimpleTfKinematics::getTransformCallback(const std::shared_ptr<navbot_msgs::srv::GetTransform::Request> req,
+                            const std::shared_ptr<navbot_msgs::srv::GetTransform::Response> res)
+
+{
+    RCLCPP_INFO_STREAM(get_logger(), "Requested Transform between" <<req-> frame_id << " and " << req ->child_frame_id);
+    geometry_msgs::msg::TransformStamped request_transform;
+    try{
+        request_transform = tf_buffer_->lookupTransform(req->frame_id, req->child_frame_id, tf2::TimePointZero);
+
+    }
+    catch(tf2::TransformException &ex)
+    {
+        RCLCPP_ERROR_STREAM(get_logger(), "An error occured while transforming from : " <<
+                req->frame_id << " and " << req->child_frame_id << ": " << ex.what());
+        res->success =false;
+        return true;
+    }
+
+    res -> success = false;
+    return true;
+    
+
+}
+
+            
+
 
 int main(int argc, char* argv[])
 {

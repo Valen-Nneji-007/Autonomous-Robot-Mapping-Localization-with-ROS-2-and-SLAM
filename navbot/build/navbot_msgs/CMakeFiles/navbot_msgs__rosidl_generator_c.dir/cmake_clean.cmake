@@ -5,6 +5,12 @@ file(REMOVE_RECURSE
   "CMakeFiles/navbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/navbot_msgs/srv/detail/add_two_ints__functions.c.o.d"
   "CMakeFiles/navbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/navbot_msgs/srv/detail/add_two_ints__type_support.c.o"
   "CMakeFiles/navbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/navbot_msgs/srv/detail/add_two_ints__type_support.c.o.d"
+  "CMakeFiles/navbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/navbot_msgs/srv/detail/get_transform__description.c.o"
+  "CMakeFiles/navbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/navbot_msgs/srv/detail/get_transform__description.c.o.d"
+  "CMakeFiles/navbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/navbot_msgs/srv/detail/get_transform__functions.c.o"
+  "CMakeFiles/navbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/navbot_msgs/srv/detail/get_transform__functions.c.o.d"
+  "CMakeFiles/navbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/navbot_msgs/srv/detail/get_transform__type_support.c.o"
+  "CMakeFiles/navbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/navbot_msgs/srv/detail/get_transform__type_support.c.o.d"
   "libnavbot_msgs__rosidl_generator_c.pdb"
   "libnavbot_msgs__rosidl_generator_c.so"
   "rosidl_generator_c/navbot_msgs/srv/add_two_ints.h"
@@ -14,6 +20,13 @@ file(REMOVE_RECURSE
   "rosidl_generator_c/navbot_msgs/srv/detail/add_two_ints__struct.h"
   "rosidl_generator_c/navbot_msgs/srv/detail/add_two_ints__type_support.c"
   "rosidl_generator_c/navbot_msgs/srv/detail/add_two_ints__type_support.h"
+  "rosidl_generator_c/navbot_msgs/srv/detail/get_transform__description.c"
+  "rosidl_generator_c/navbot_msgs/srv/detail/get_transform__functions.c"
+  "rosidl_generator_c/navbot_msgs/srv/detail/get_transform__functions.h"
+  "rosidl_generator_c/navbot_msgs/srv/detail/get_transform__struct.h"
+  "rosidl_generator_c/navbot_msgs/srv/detail/get_transform__type_support.c"
+  "rosidl_generator_c/navbot_msgs/srv/detail/get_transform__type_support.h"
+  "rosidl_generator_c/navbot_msgs/srv/get_transform.h"
 )
 
 # Per-language clean rules from dependency scanning.

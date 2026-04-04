@@ -1,0 +1,44 @@
+[  0%] Built target ament_cmake_python_copy_navbot_utils
+[100%] Built target safety_stop
+running egg_info
+writing navbot_utils.egg-info/PKG-INFO
+writing dependency_links to navbot_utils.egg-info/dependency_links.txt
+writing top-level names to navbot_utils.egg-info/top_level.txt
+reading manifest file 'navbot_utils.egg-info/SOURCES.txt'
+writing manifest file 'navbot_utils.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_navbot_utils_egg
+-- Install configuration: ""
+-- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_utils/share/navbot_utils/environment/pythonpath.sh
+-- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_utils/share/navbot_utils/environment/pythonpath.dsv
+-- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_utils/lib/python3.12/site-packages/navbot_utils-0.0.0-py3.12.egg-info
+-- Installing: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_utils/lib/python3.12/site-packages/navbot_utils-0.0.0-py3.12.egg-info/dependency_links.txt
+-- Installing: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_utils/lib/python3.12/site-packages/navbot_utils-0.0.0-py3.12.egg-info/PKG-INFO
+-- Installing: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_utils/lib/python3.12/site-packages/navbot_utils-0.0.0-py3.12.egg-info/SOURCES.txt
+-- Installing: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_utils/lib/python3.12/site-packages/navbot_utils-0.0.0-py3.12.egg-info/top_level.txt
+-- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_utils/lib/python3.12/site-packages/navbot_utils
+-- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_utils/lib/python3.12/site-packages/navbot_utils/safety_stop.py
+-- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_utils/lib/python3.12/site-packages/navbot_utils/__init__.py
+Listing '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_utils/lib/python3.12/site-packages/navbot_utils'...
+Compiling '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_utils/lib/python3.12/site-packages/navbot_utils/safety_stop.py'...
+***   File "/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_utils/lib/python3.12/site-packages/navbot_utils/safety_stop.py", line 41
+    elif self self.state == State.FREE:
+              ^^^^
+SyntaxError: invalid syntax
+
+-- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_utils/lib/navbot_utils/safety_stop
+-- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_utils/lib/navbot_utils/safety_stop.py
+-- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_utils/share/ament_index/resource_index/package_run_dependencies/navbot_utils
+-- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_utils/share/ament_index/resource_index/parent_prefix_path/navbot_utils
+-- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_utils/share/navbot_utils/environment/ament_prefix_path.sh
+-- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_utils/share/navbot_utils/environment/ament_prefix_path.dsv
+-- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_utils/share/navbot_utils/environment/path.sh
+-- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_utils/share/navbot_utils/environment/path.dsv
+-- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_utils/share/navbot_utils/local_setup.bash
+-- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_utils/share/navbot_utils/local_setup.sh
+-- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_utils/share/navbot_utils/local_setup.zsh
+-- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_utils/share/navbot_utils/local_setup.dsv
+-- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_utils/share/navbot_utils/package.dsv
+-- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_utils/share/ament_index/resource_index/packages/navbot_utils
+-- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_utils/share/navbot_utils/cmake/navbot_utilsConfig.cmake
+-- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_utils/share/navbot_utils/cmake/navbot_utilsConfig-version.cmake
+-- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_utils/share/navbot_utils/package.xml

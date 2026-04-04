@@ -1,9 +1,12 @@
 file(REMOVE_RECURSE
   "CMakeFiles/navbot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/navbot_msgs/srv/add_two_ints__type_support.cpp.o"
   "CMakeFiles/navbot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/navbot_msgs/srv/add_two_ints__type_support.cpp.o.d"
+  "CMakeFiles/navbot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/navbot_msgs/srv/get_transform__type_support.cpp.o"
+  "CMakeFiles/navbot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/navbot_msgs/srv/get_transform__type_support.cpp.o.d"
   "libnavbot_msgs__rosidl_typesupport_c.pdb"
   "libnavbot_msgs__rosidl_typesupport_c.so"
   "rosidl_typesupport_c/navbot_msgs/srv/add_two_ints__type_support.cpp"
+  "rosidl_typesupport_c/navbot_msgs/srv/get_transform__type_support.cpp"
 )
 
 # Per-language clean rules from dependency scanning.
