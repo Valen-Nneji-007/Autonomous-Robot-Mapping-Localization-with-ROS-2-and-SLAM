@@ -425,6 +425,7 @@ CMakeFiles/simple_tf_kinematics.dir/src/simple_tf_kinematics.cpp.o: /mnt/c/Users
   /opt/ros/jazzy/include/tf2/tf2/LinearMath/Matrix3x3.hpp \
   /opt/ros/jazzy/include/tf2/tf2/LinearMath/MinMax.hpp \
   /opt/ros/jazzy/include/tf2/tf2/LinearMath/QuadWord.hpp \
+  /opt/ros/jazzy/include/tf2/tf2/LinearMath/Quaternion.h \
   /opt/ros/jazzy/include/tf2/tf2/LinearMath/Quaternion.hpp \
   /opt/ros/jazzy/include/tf2/tf2/LinearMath/Scalar.hpp \
   /opt/ros/jazzy/include/tf2/tf2/LinearMath/Transform.hpp \
@@ -1199,6 +1200,8 @@ CMakeFiles/simple_tf_kinematics.dir/src/simple_tf_kinematics.cpp.o: /mnt/c/Users
 /usr/include/c++/13/bits/range_access.h:
 
 /usr/include/c++/13/bits/quoted_string.h:
+
+/usr/include/c++/13/bits/ptr_traits.h:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/detail/rmw_implementation_specific_subscription_payload.hpp:
 
@@ -2362,6 +2365,8 @@ CMakeFiles/simple_tf_kinematics.dir/src/simple_tf_kinematics.cpp.o: /mnt/c/Users
 
 /usr/include/c++/13/tr1/riemann_zeta.tcc:
 
+/opt/ros/jazzy/include/tf2/tf2/LinearMath/Quaternion.h:
+
 /opt/ros/jazzy/include/tf2_ros/tf2_ros/qos.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:
@@ -2487,5 +2492,3 @@ CMakeFiles/simple_tf_kinematics.dir/src/simple_tf_kinematics.cpp.o: /mnt/c/Users
 /opt/ros/jazzy/include/tf2/tf2/visibility_control.h:
 
 /usr/include/c++/13/bits/node_handle.h:
-
-/usr/include/c++/13/bits/ptr_traits.h:

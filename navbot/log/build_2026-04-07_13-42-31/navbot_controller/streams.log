@@ -1,0 +1,27 @@
+[0.084s] Invoking command in '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_controller -- -j8 -l8
+[0.628s] [ 50%] Built target twist_relay
+[0.666s] [ 75%] [32mBuilding CXX object CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o[0m
+[0.692s] [ 75%] Built target ament_cmake_python_copy_navbot_controller
+[1.409s] running egg_info
+[1.474s] writing navbot_controller.egg-info/PKG-INFO
+[1.483s] writing dependency_links to navbot_controller.egg-info/dependency_links.txt
+[1.492s] writing top-level names to navbot_controller.egg-info/top_level.txt
+[1.654s] reading manifest file 'navbot_controller.egg-info/SOURCES.txt'
+[1.700s] writing manifest file 'navbot_controller.egg-info/SOURCES.txt'
+[1.801s] [ 75%] Built target ament_cmake_python_build_navbot_controller_egg
+[8.981s] In file included from [01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_controller/src/simple_controller.cpp:1[m[K:
+[8.983s] [01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_controller/include/simple_controller.hpp:35:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kdouble[m[K’
+[8.987s]    35 |     [01;31m[Kdouble[m[K theta_;
+[8.990s]       |     [01;31m[K^~~~~~[m[K
+[9.237s] [01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_controller/src/simple_controller.cpp:[m[K In constructor ‘[01m[KSimpleController::[01;32m[KSimpleController[m[K(const std::string&)[m[K’:
+[9.239s] [01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_controller/src/simple_controller.cpp:11:11:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KSimpleController[m[K’ does not have any field named ‘[01m[Ktheta_[m[K’
+[9.242s]    11 |         , [01;31m[Ktheta_[m[K(0.0)
+[9.244s]       |           [01;31m[K^~~~~~[m[K
+[9.344s] [01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_controller/src/simple_controller.cpp:[m[K In member function ‘[01m[Kvoid SimpleController::[01;32m[KjointCallback[m[K(const sensor_msgs::msg::JointState&)[m[K’:
+[9.345s] [01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_controller/src/simple_controller.cpp:80:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktheta_[m[K’ was not declared in this scope
+[9.347s]    80 |     [01;31m[Ktheta_[m[K +=d_theta;
+[9.349s]       |     [01;31m[K^~~~~~[m[K
+[14.840s] gmake[2]: *** [CMakeFiles/simple_controller.dir/build.make:76: CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o] Error 1
+[14.844s] gmake[1]: *** [CMakeFiles/Makefile2:142: CMakeFiles/simple_controller.dir/all] Error 2
+[14.846s] gmake: *** [Makefile:146: all] Error 2
+[14.853s] Invoked command in '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_controller -- -j8 -l8

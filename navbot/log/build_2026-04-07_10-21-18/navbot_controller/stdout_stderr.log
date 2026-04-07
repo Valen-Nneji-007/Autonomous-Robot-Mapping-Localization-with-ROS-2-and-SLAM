@@ -1,0 +1,21 @@
+[ 50%] Built target twist_relay
+[ 50%] Built target ament_cmake_python_copy_navbot_controller
+running egg_info
+[ 75%] [32mBuilding CXX object CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o[0m
+writing navbot_controller.egg-info/PKG-INFO
+writing dependency_links to navbot_controller.egg-info/dependency_links.txt
+writing top-level names to navbot_controller.egg-info/top_level.txt
+reading manifest file 'navbot_controller.egg-info/SOURCES.txt'
+writing manifest file 'navbot_controller.egg-info/SOURCES.txt'
+[ 75%] Built target ament_cmake_python_build_navbot_controller_egg
+[01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_controller/src/simple_controller.cpp:[m[K In member function ‘[01m[Kvoid SimpleController::[01;32m[KjointCallback[m[K(const sensor_msgs::msg::JointState&)[m[K’:
+[01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_controller/src/simple_controller.cpp:48:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kfirst_joint_msg_[m[K’ was not declared in this scope
+   48 |     if ([01;31m[Kfirst_joint_msg_[m[K) {
+      |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_controller/src/simple_controller.cpp:59:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg_time[m[K’ was not declared in this scope; did you mean ‘[01m[Kmktime[m[K’?
+   59 |     rclcpp::Duration dt = [01;31m[Kmsg_time[m[K - prev_time_;
+      |                           [01;31m[K^~~~~~~~[m[K
+      |                           [32m[Kmktime[m[K
+gmake[2]: *** [CMakeFiles/simple_controller.dir/build.make:76: CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:142: CMakeFiles/simple_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

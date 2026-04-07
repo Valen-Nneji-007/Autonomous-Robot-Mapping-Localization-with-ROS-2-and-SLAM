@@ -1,0 +1,175 @@
+[1.580s] Invoking command in '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_msgs -- -j8 -l8
+[7.351s] [  2%] Built target navbot_msgs__rosidl_generator_type_description
+[10.702s] [  4%] Built target navbot_msgs__cpp
+[15.048s] [ 22%] Built target navbot_msgs__rosidl_generator_c
+[15.494s] [ 22%] Built target ament_cmake_python_copy_navbot_msgs
+[16.929s] [ 31%] Built target navbot_msgs__rosidl_typesupport_c
+[17.181s] [ 40%] Built target navbot_msgs__rosidl_typesupport_cpp
+[17.276s] [ 50%] Built target navbot_msgs__rosidl_typesupport_introspection_c
+[17.489s] [ 59%] Built target navbot_msgs__rosidl_typesupport_introspection_cpp
+[17.556s] [ 68%] Built target navbot_msgs__rosidl_typesupport_fastrtps_c
+[17.604s] [ 77%] Built target navbot_msgs__rosidl_typesupport_fastrtps_cpp
+[17.875s] running egg_info
+[17.983s] writing navbot_msgs.egg-info/PKG-INFO
+[18.000s] writing dependency_links to navbot_msgs.egg-info/dependency_links.txt
+[18.011s] writing top-level names to navbot_msgs.egg-info/top_level.txt
+[18.026s] [ 77%] Built target navbot_msgs
+[18.388s] reading manifest file 'navbot_msgs.egg-info/SOURCES.txt'
+[18.443s] [ 79%] Built target navbot_msgs__py
+[18.503s] writing manifest file 'navbot_msgs.egg-info/SOURCES.txt'
+[18.702s] [ 79%] Built target ament_cmake_python_build_navbot_msgs_egg
+[19.221s] [ 86%] Built target navbot_msgs__rosidl_generator_py
+[20.684s] [ 95%] Built target navbot_msgs_s__rosidl_typesupport_introspection_c
+[20.703s] [ 95%] Built target navbot_msgs_s__rosidl_typesupport_c
+[21.110s] [100%] Built target navbot_msgs_s__rosidl_typesupport_fastrtps_c
+[22.562s] Invoked command in '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_msgs -- -j8 -l8
+[22.680s] Invoking command in '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_msgs
+[22.749s] -- Install configuration: ""
+[22.839s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/share/ament_index/resource_index/rosidl_interfaces/navbot_msgs
+[22.910s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/share/navbot_msgs/srv/AddTwoInts.json
+[22.978s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/share/navbot_msgs/srv/GetTransform.json
+[23.029s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/include/navbot_msgs/navbot_msgs
+[23.098s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/include/navbot_msgs/navbot_msgs/msg
+[23.249s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/include/navbot_msgs/navbot_msgs/msg/rosidl_generator_c__visibility_control.h
+[23.329s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/include/navbot_msgs/navbot_msgs/srv
+[23.660s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/include/navbot_msgs/navbot_msgs/srv/add_two_ints.h
+[24.034s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/include/navbot_msgs/navbot_msgs/srv/detail
+[24.587s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/include/navbot_msgs/navbot_msgs/srv/detail/add_two_ints__description.c
+[24.971s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/include/navbot_msgs/navbot_msgs/srv/detail/add_two_ints__functions.c
+[25.258s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/include/navbot_msgs/navbot_msgs/srv/detail/add_two_ints__functions.h
+[25.610s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/include/navbot_msgs/navbot_msgs/srv/detail/add_two_ints__struct.h
+[25.910s] -- Installing: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/include/navbot_msgs/navbot_msgs/srv/detail/add_two_ints__type_support.c
+[26.939s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/include/navbot_msgs/navbot_msgs/srv/detail/add_two_ints__type_support.h
+[27.294s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/include/navbot_msgs/navbot_msgs/srv/detail/get_transform__description.c
+[27.525s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/include/navbot_msgs/navbot_msgs/srv/detail/get_transform__functions.c
+[27.879s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/include/navbot_msgs/navbot_msgs/srv/detail/get_transform__functions.h
+[28.038s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/include/navbot_msgs/navbot_msgs/srv/detail/get_transform__struct.h
+[28.331s] -- Installing: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/include/navbot_msgs/navbot_msgs/srv/detail/get_transform__type_support.c
+[29.072s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/include/navbot_msgs/navbot_msgs/srv/detail/get_transform__type_support.h
+[29.405s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/include/navbot_msgs/navbot_msgs/srv/get_transform.h
+[29.484s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/share/navbot_msgs/environment/library_path.sh
+[29.594s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/share/navbot_msgs/environment/library_path.dsv
+[29.895s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/lib/libnavbot_msgs__rosidl_generator_c.so
+[30.271s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/include/navbot_msgs/navbot_msgs
+[30.416s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/include/navbot_msgs/navbot_msgs/msg
+[30.822s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/include/navbot_msgs/navbot_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[31.031s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/include/navbot_msgs/navbot_msgs/srv
+[31.322s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/include/navbot_msgs/navbot_msgs/srv/detail
+[31.715s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/include/navbot_msgs/navbot_msgs/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_c.h
+[32.101s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/include/navbot_msgs/navbot_msgs/srv/detail/get_transform__rosidl_typesupport_fastrtps_c.h
+[32.659s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/lib/libnavbot_msgs__rosidl_typesupport_fastrtps_c.so
+[33.006s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/include/navbot_msgs/navbot_msgs
+[33.128s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/include/navbot_msgs/navbot_msgs/msg
+[33.220s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/include/navbot_msgs/navbot_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[33.427s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/include/navbot_msgs/navbot_msgs/srv
+[33.565s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/include/navbot_msgs/navbot_msgs/srv/add_two_ints.hpp
+[33.803s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/include/navbot_msgs/navbot_msgs/srv/detail
+[34.412s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/include/navbot_msgs/navbot_msgs/srv/detail/add_two_ints__builder.hpp
+[34.865s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/include/navbot_msgs/navbot_msgs/srv/detail/add_two_ints__struct.hpp
+[35.015s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/include/navbot_msgs/navbot_msgs/srv/detail/add_two_ints__traits.hpp
+[35.083s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/include/navbot_msgs/navbot_msgs/srv/detail/add_two_ints__type_support.hpp
+[35.380s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/include/navbot_msgs/navbot_msgs/srv/detail/get_transform__builder.hpp
+[36.031s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/include/navbot_msgs/navbot_msgs/srv/detail/get_transform__struct.hpp
+[36.324s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/include/navbot_msgs/navbot_msgs/srv/detail/get_transform__traits.hpp
+[38.215s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/include/navbot_msgs/navbot_msgs/srv/detail/get_transform__type_support.hpp
+[39.227s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/include/navbot_msgs/navbot_msgs/srv/get_transform.hpp
+[39.551s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/include/navbot_msgs/navbot_msgs
+[39.771s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/include/navbot_msgs/navbot_msgs/msg
+[40.259s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/include/navbot_msgs/navbot_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[40.439s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/include/navbot_msgs/navbot_msgs/srv
+[41.069s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/include/navbot_msgs/navbot_msgs/srv/detail
+[41.691s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/include/navbot_msgs/navbot_msgs/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[41.813s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/include/navbot_msgs/navbot_msgs/srv/detail/dds_fastrtps
+[42.344s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/include/navbot_msgs/navbot_msgs/srv/detail/get_transform__rosidl_typesupport_fastrtps_cpp.hpp
+[43.693s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/lib/libnavbot_msgs__rosidl_typesupport_fastrtps_cpp.so
+[44.368s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/include/navbot_msgs/navbot_msgs
+[44.717s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/include/navbot_msgs/navbot_msgs/msg
+[45.049s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/include/navbot_msgs/navbot_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[45.277s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/include/navbot_msgs/navbot_msgs/srv
+[45.574s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/include/navbot_msgs/navbot_msgs/srv/detail
+[46.044s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/include/navbot_msgs/navbot_msgs/srv/detail/add_two_ints__rosidl_typesupport_introspection_c.h
+[46.228s] -- Installing: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/include/navbot_msgs/navbot_msgs/srv/detail/add_two_ints__type_support.c
+[47.460s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/include/navbot_msgs/navbot_msgs/srv/detail/get_transform__rosidl_typesupport_introspection_c.h
+[47.746s] -- Installing: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/include/navbot_msgs/navbot_msgs/srv/detail/get_transform__type_support.c
+[49.469s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/lib/libnavbot_msgs__rosidl_typesupport_introspection_c.so
+[50.422s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/lib/libnavbot_msgs__rosidl_typesupport_c.so
+[50.995s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/include/navbot_msgs/navbot_msgs
+[51.278s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/include/navbot_msgs/navbot_msgs/srv
+[51.594s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/include/navbot_msgs/navbot_msgs/srv/detail
+[51.788s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/include/navbot_msgs/navbot_msgs/srv/detail/add_two_ints__rosidl_typesupport_introspection_cpp.hpp
+[52.040s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/include/navbot_msgs/navbot_msgs/srv/detail/add_two_ints__type_support.cpp
+[52.190s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/include/navbot_msgs/navbot_msgs/srv/detail/get_transform__rosidl_typesupport_introspection_cpp.hpp
+[52.557s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/include/navbot_msgs/navbot_msgs/srv/detail/get_transform__type_support.cpp
+[53.061s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/lib/libnavbot_msgs__rosidl_typesupport_introspection_cpp.so
+[53.991s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/lib/libnavbot_msgs__rosidl_typesupport_cpp.so
+[54.472s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/share/navbot_msgs/environment/pythonpath.sh
+[54.553s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/share/navbot_msgs/environment/pythonpath.dsv
+[54.619s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/lib/python3.12/site-packages/navbot_msgs-0.0.0-py3.12.egg-info
+[55.039s] -- Installing: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/lib/python3.12/site-packages/navbot_msgs-0.0.0-py3.12.egg-info/dependency_links.txt
+[55.710s] -- Installing: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/lib/python3.12/site-packages/navbot_msgs-0.0.0-py3.12.egg-info/PKG-INFO
+[56.304s] -- Installing: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/lib/python3.12/site-packages/navbot_msgs-0.0.0-py3.12.egg-info/SOURCES.txt
+[56.827s] -- Installing: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/lib/python3.12/site-packages/navbot_msgs-0.0.0-py3.12.egg-info/top_level.txt
+[57.349s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/lib/python3.12/site-packages/navbot_msgs
+[57.552s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/lib/python3.12/site-packages/navbot_msgs/navbot_msgs_s__rosidl_typesupport_c.so
+[57.654s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/lib/python3.12/site-packages/navbot_msgs/navbot_msgs_s__rosidl_typesupport_fastrtps_c.so
+[57.719s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/lib/python3.12/site-packages/navbot_msgs/navbot_msgs_s__rosidl_typesupport_introspection_c.so
+[57.863s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/lib/python3.12/site-packages/navbot_msgs/srv
+[58.178s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/lib/python3.12/site-packages/navbot_msgs/srv/_add_two_ints.py
+[58.302s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/lib/python3.12/site-packages/navbot_msgs/srv/_add_two_ints_s.c
+[58.662s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/lib/python3.12/site-packages/navbot_msgs/srv/_get_transform.py
+[59.132s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/lib/python3.12/site-packages/navbot_msgs/srv/_get_transform_s.c
+[59.270s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/lib/python3.12/site-packages/navbot_msgs/srv/__init__.py
+[59.522s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/lib/python3.12/site-packages/navbot_msgs/_navbot_msgs_s.ep.rosidl_typesupport_c.c
+[59.677s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/lib/python3.12/site-packages/navbot_msgs/_navbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[59.849s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/lib/python3.12/site-packages/navbot_msgs/_navbot_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[60.115s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/lib/python3.12/site-packages/navbot_msgs/__init__.py
+[62.806s] Listing '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/lib/python3.12/site-packages/navbot_msgs'...
+[62.808s] Listing '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/lib/python3.12/site-packages/navbot_msgs/srv'...
+[63.110s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/lib/python3.12/site-packages/navbot_msgs/navbot_msgs_s__rosidl_typesupport_fastrtps_c.so
+[63.691s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/lib/python3.12/site-packages/navbot_msgs/navbot_msgs_s__rosidl_typesupport_introspection_c.so
+[64.572s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/lib/python3.12/site-packages/navbot_msgs/navbot_msgs_s__rosidl_typesupport_c.so
+[65.508s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/lib/libnavbot_msgs__rosidl_generator_py.so
+[65.947s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/share/navbot_msgs/srv/AddTwoInts.idl
+[66.036s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/share/navbot_msgs/srv/GetTransform.idl
+[66.111s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/share/navbot_msgs/srv/AddTwoInts.srv
+[66.187s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/share/navbot_msgs/srv/GetTransform.srv
+[66.313s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/share/ament_index/resource_index/package_run_dependencies/navbot_msgs
+[66.533s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/share/ament_index/resource_index/parent_prefix_path/navbot_msgs
+[66.901s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/share/navbot_msgs/environment/ament_prefix_path.sh
+[67.411s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/share/navbot_msgs/environment/ament_prefix_path.dsv
+[67.672s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/share/navbot_msgs/environment/path.sh
+[68.155s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/share/navbot_msgs/environment/path.dsv
+[68.430s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/share/navbot_msgs/local_setup.bash
+[68.757s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/share/navbot_msgs/local_setup.sh
+[68.826s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/share/navbot_msgs/local_setup.zsh
+[68.930s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/share/navbot_msgs/local_setup.dsv
+[69.114s] -- Installing: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/share/navbot_msgs/package.dsv
+[69.790s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/share/ament_index/resource_index/packages/navbot_msgs
+[70.155s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/share/navbot_msgs/cmake/export_navbot_msgs__rosidl_generator_cExport.cmake
+[70.347s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/share/navbot_msgs/cmake/export_navbot_msgs__rosidl_generator_cExport-noconfig.cmake
+[70.583s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/share/navbot_msgs/cmake/export_navbot_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[70.879s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/share/navbot_msgs/cmake/export_navbot_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[71.282s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/share/navbot_msgs/cmake/export_navbot_msgs__rosidl_generator_cppExport.cmake
+[72.279s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/share/navbot_msgs/cmake/export_navbot_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[72.544s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/share/navbot_msgs/cmake/export_navbot_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[72.982s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/share/navbot_msgs/cmake/navbot_msgs__rosidl_typesupport_introspection_cExport.cmake
+[73.095s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/share/navbot_msgs/cmake/navbot_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[73.623s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/share/navbot_msgs/cmake/navbot_msgs__rosidl_typesupport_cExport.cmake
+[73.815s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/share/navbot_msgs/cmake/navbot_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[74.079s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/share/navbot_msgs/cmake/navbot_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[74.244s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/share/navbot_msgs/cmake/navbot_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[74.656s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/share/navbot_msgs/cmake/navbot_msgs__rosidl_typesupport_cppExport.cmake
+[74.933s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/share/navbot_msgs/cmake/navbot_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[75.069s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/share/navbot_msgs/cmake/export_navbot_msgs__rosidl_generator_pyExport.cmake
+[75.281s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/share/navbot_msgs/cmake/export_navbot_msgs__rosidl_generator_pyExport-noconfig.cmake
+[75.402s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/share/navbot_msgs/cmake/rosidl_cmake-extras.cmake
+[75.505s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/share/navbot_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[75.714s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/share/navbot_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[75.932s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/share/navbot_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[76.032s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/share/navbot_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[76.129s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/share/navbot_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[76.190s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/share/navbot_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[76.414s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/share/navbot_msgs/cmake/navbot_msgsConfig.cmake
+[76.483s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/share/navbot_msgs/cmake/navbot_msgsConfig-version.cmake
+[76.601s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/share/navbot_msgs/package.xml
+[76.788s] Invoked command in '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_msgs

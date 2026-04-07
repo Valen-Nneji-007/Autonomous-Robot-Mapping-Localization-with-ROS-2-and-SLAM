@@ -1,0 +1,70 @@
+[ 40%] Built target simple_parameter
+[ 40%] Built target simple_turtlesim_kinematics
+[ 60%] Built target simple_service_server
+[ 80%] Built target simple_service_client
+[ 90%] [32mBuilding CXX object CMakeFiles/simple_tf_kinematics.dir/src/simple_tf_kinematics.cpp.o[0m
+[01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_cpp_examples/src/simple_tf_kinematics.cpp:[m[K In constructor ‘[01m[KSimpleTfKinematics::[01;32m[KSimpleTfKinematics[m[K(const std::string&)[m[K’:
+[01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_cpp_examples/src/simple_tf_kinematics.cpp:15:76:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kstd::unique_ptr<tf2_ros::TransformListener>[m[K’ and ‘[01m[Kstd::shared_ptr<tf2_ros::TransformListener>[m[K’)
+   15 | f2_ros::TransformListener>(*tf_buffer_[01;31m[K)[m[K;
+      |                                       [01;31m[K^[m[K
+
+In file included from [01m[K/usr/include/c++/13/memory:78[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:169[m[K,
+                 from [01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_cpp_examples/include/navbot_cpp_examples/simple_tf_kinematics.hpp:4[m[K,
+                 from [01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_cpp_examples/src/simple_tf_kinematics.cpp:1[m[K:
+[01m[K/usr/include/c++/13/bits/unique_ptr.h:430:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Up, class _Ep> typename std::enable_if<std::__and_<std::__and_<std::is_convertible<typename std::unique_ptr<_Up, _Ep>::pointer, typename std::__uniq_ptr_impl<_Tp, _Dp>::pointer>, std::__not_<std::is_array<_Up> > >, std::is_assignable<_T2&, _U2&&> >::value, std::unique_ptr<_Tp, _Dp>&>::type std::unique_ptr<_Tp, _Dp>::[01;32m[Koperator=[m[K(std::unique_ptr<_Up, _Ep>&&) [35m[K[with _Ep = _Up; _Tp = tf2_ros::TransformListener; _Dp = std::default_delete<tf2_ros::TransformListener>][m[K[m[K’
+  430 |         [01;36m[Koperator[m[K=(unique_ptr<_Up, _Ep>&& __u) noexcept
+      |         [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/13/bits/unique_ptr.h:430:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_cpp_examples/src/simple_tf_kinematics.cpp:15:76:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<tf2_ros::TransformListener>[m[K’ is not derived from ‘[01m[Kstd::unique_ptr<_Tp, _Dp>[m[K’
+   15 | f2_ros::TransformListener>(*tf_buffer_[01;36m[K)[m[K;
+      |                                       [01;36m[K^[m[K
+
+[01m[K/usr/include/c++/13/bits/unique_ptr.h:414:19:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::unique_ptr<_Tp, _Dp>& std::unique_ptr<_Tp, _Dp>::[01;32m[Koperator=[m[K(std::unique_ptr<_Tp, _Dp>&&) [35m[K[with _Tp = tf2_ros::TransformListener; _Dp = std::default_delete<tf2_ros::TransformListener>][m[K[m[K’
+  414 |       unique_ptr& [01;36m[Koperator[m[K=(unique_ptr&&) = default;
+      |                   [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/13/bits/unique_ptr.h:414:29:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<tf2_ros::TransformListener>[m[K’ to ‘[01m[Kstd::unique_ptr<tf2_ros::TransformListener>&&[m[K’
+  414 |       unique_ptr& operator=([01;36m[Kunique_ptr&&[m[K) = default;
+      |                             [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/13/bits/unique_ptr.h:440:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::unique_ptr<_Tp, _Dp>& std::unique_ptr<_Tp, _Dp>::[01;32m[Koperator=[m[K(std::nullptr_t) [35m[K[with _Tp = tf2_ros::TransformListener; _Dp = std::default_delete<tf2_ros::TransformListener>; std::nullptr_t = std::nullptr_t][m[K[m[K’
+  440 |       [01;36m[Koperator[m[K=(nullptr_t) noexcept
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/13/bits/unique_ptr.h:440:17:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<tf2_ros::TransformListener>[m[K’ to ‘[01m[Kstd::nullptr_t[m[K’
+  440 |       operator=([01;36m[Knullptr_t[m[K) noexcept
+      |                 [01;36m[K^~~~~~~~~[m[K
+[01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_cpp_examples/src/simple_tf_kinematics.cpp:35:95:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K([m[K’ token
+   35 | sform>("get_transform", std::[01;31m[K([m[K&SimpleTfKinematics::getTransformCallback, this , _1, _2));
+      |                              [01;31m[K^[m[K
+
+[01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_cpp_examples/src/simple_tf_kinematics.cpp:35:146:[m[K [01;31m[Kerror: [m[K‘[01m[K_1[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::placeholders::_1[m[K’?
+   35 | ::getTransformCallback, this , [01;31m[K_1[m[K, _2));
+      |                                [01;31m[K^~[m[K
+      |                                [32m[Kstd::placeholders::_1[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:19[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:25[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K:
+[01m[K/usr/include/c++/13/functional:294:48:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::placeholders::_1[m[K’ declared here
+  294 | XX_PLACEHOLDER const _Placeholder<1> [01;36m[K_1[m[K;
+      |                                      [01;36m[K^~[m[K
+
+[01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_cpp_examples/src/simple_tf_kinematics.cpp:35:150:[m[K [01;31m[Kerror: [m[K‘[01m[K_2[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::placeholders::_2[m[K’?
+   35 | ::getTransformCallback, this , _1, [01;31m[K_2[m[K));
+      |                                    [01;31m[K^~[m[K
+      |                                    [32m[Kstd::placeholders::_2[m[K
+[01m[K/usr/include/c++/13/functional:295:48:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::placeholders::_2[m[K’ declared here
+  295 | XX_PLACEHOLDER const _Placeholder<2> [01;36m[K_2[m[K;
+      |                                      [01;36m[K^~[m[K
+
+[01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_cpp_examples/src/simple_tf_kinematics.cpp:[m[K In member function ‘[01m[Kbool SimpleTfKinematics::[01;32m[KgetTransformCallback[m[K(std::shared_ptr<navbot_msgs::srv::GetTransform_Request_<std::allocator<void> > >, std::shared_ptr<navbot_msgs::srv::GetTransform_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_cpp_examples/src/simple_tf_kinematics.cpp:64:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krequested_transform[m[K’ was not declared in this scope; did you mean ‘[01m[Krequest_transform[m[K’?
+   64 |         [01;31m[Krequested_transform[m[K = tf_buffer_->lookupTransform(req->frame_id, req->child_frame_id, tf2::TimePointZero);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |         [32m[Krequest_transform[m[K
+[01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_cpp_examples/src/simple_tf_kinematics.cpp:74:22:[m[K [01;31m[Kerror: [m[K‘[01m[Krequested_transform[m[K’ was not declared in this scope; did you mean ‘[01m[Krequest_transform[m[K’?
+   74 |     res->transform = [01;31m[Krequested_transform[m[K;
+      |                      [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |                      [32m[Krequest_transform[m[K
+gmake[2]: *** [CMakeFiles/simple_tf_kinematics.dir/build.make:76: CMakeFiles/simple_tf_kinematics.dir/src/simple_tf_kinematics.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:197: CMakeFiles/simple_tf_kinematics.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,224 @@
+[0.320s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'navbot_controller']
+[0.320s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['navbot_controller'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x778830fea780>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x778830fe9dc0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x778830fe9dc0>>)
+[0.400s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.404s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.404s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.404s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.404s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.405s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.405s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/navbot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/navbot_bringup) by extension 'ignore'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/navbot_bringup) by extension 'ignore_ament_install'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/navbot_bringup) by extensions ['colcon_pkg']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/navbot_bringup) by extension 'colcon_pkg'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(src/navbot_bringup) by extensions ['colcon_meta']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/navbot_bringup) by extension 'colcon_meta'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/navbot_bringup) by extensions ['ros']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/navbot_bringup) by extension 'ros'
+[0.532s] DEBUG:colcon.colcon_core.package_identification:Package 'src/navbot_bringup' with type 'ros.ament_cmake' and name 'navbot_bringup'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/navbot_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/navbot_controller) by extension 'ignore'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/navbot_controller) by extension 'ignore_ament_install'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/navbot_controller) by extensions ['colcon_pkg']
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/navbot_controller) by extension 'colcon_pkg'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/navbot_controller) by extensions ['colcon_meta']
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/navbot_controller) by extension 'colcon_meta'
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/navbot_controller) by extensions ['ros']
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/navbot_controller) by extension 'ros'
+[0.565s] DEBUG:colcon.colcon_core.package_identification:Package 'src/navbot_controller' with type 'ros.ament_cmake' and name 'navbot_controller'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/navbot_cpp_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/navbot_cpp_examples) by extension 'ignore'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/navbot_cpp_examples) by extension 'ignore_ament_install'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/navbot_cpp_examples) by extensions ['colcon_pkg']
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/navbot_cpp_examples) by extension 'colcon_pkg'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/navbot_cpp_examples) by extensions ['colcon_meta']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/navbot_cpp_examples) by extension 'colcon_meta'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/navbot_cpp_examples) by extensions ['ros']
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(src/navbot_cpp_examples) by extension 'ros'
+[0.598s] DEBUG:colcon.colcon_core.package_identification:Package 'src/navbot_cpp_examples' with type 'ros.ament_cmake' and name 'navbot_cpp_examples'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/navbot_descriptions) by extensions ['ignore', 'ignore_ament_install']
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/navbot_descriptions) by extension 'ignore'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/navbot_descriptions) by extension 'ignore_ament_install'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/navbot_descriptions) by extensions ['colcon_pkg']
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/navbot_descriptions) by extension 'colcon_pkg'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/navbot_descriptions) by extensions ['colcon_meta']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/navbot_descriptions) by extension 'colcon_meta'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/navbot_descriptions) by extensions ['ros']
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(src/navbot_descriptions) by extension 'ros'
+[0.641s] DEBUG:colcon.colcon_core.package_identification:Package 'src/navbot_descriptions' with type 'ros.ament_cmake' and name 'navbot_descriptions'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(src/navbot_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(src/navbot_examples) by extension 'ignore'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/navbot_examples) by extension 'ignore_ament_install'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/navbot_examples) by extensions ['colcon_pkg']
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/navbot_examples) by extension 'colcon_pkg'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(src/navbot_examples) by extensions ['colcon_meta']
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(src/navbot_examples) by extension 'colcon_meta'
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/navbot_examples) by extensions ['ros']
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/navbot_examples) by extension 'ros'
+[0.671s] DEBUG:colcon.colcon_core.package_identification:Package 'src/navbot_examples' with type 'ros.ament_python' and name 'navbot_examples'
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/navbot_firmware) by extensions ['ignore', 'ignore_ament_install']
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/navbot_firmware) by extension 'ignore'
+[0.678s] Level 1:colcon.colcon_core.package_identification:_identify(src/navbot_firmware) by extension 'ignore_ament_install'
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/navbot_firmware) by extensions ['colcon_pkg']
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/navbot_firmware) by extension 'colcon_pkg'
+[0.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/navbot_firmware) by extensions ['colcon_meta']
+[0.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/navbot_firmware) by extension 'colcon_meta'
+[0.686s] Level 1:colcon.colcon_core.package_identification:_identify(src/navbot_firmware) by extensions ['ros']
+[0.686s] Level 1:colcon.colcon_core.package_identification:_identify(src/navbot_firmware) by extension 'ros'
+[0.700s] DEBUG:colcon.colcon_core.package_identification:Package 'src/navbot_firmware' with type 'ros.ament_cmake' and name 'navbot_firmware'
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(src/navbot_localization) by extensions ['ignore', 'ignore_ament_install']
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(src/navbot_localization) by extension 'ignore'
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(src/navbot_localization) by extension 'ignore_ament_install'
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(src/navbot_localization) by extensions ['colcon_pkg']
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/navbot_localization) by extension 'colcon_pkg'
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/navbot_localization) by extensions ['colcon_meta']
+[0.724s] Level 1:colcon.colcon_core.package_identification:_identify(src/navbot_localization) by extension 'colcon_meta'
+[0.725s] Level 1:colcon.colcon_core.package_identification:_identify(src/navbot_localization) by extensions ['ros']
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/navbot_localization) by extension 'ros'
+[0.742s] DEBUG:colcon.colcon_core.package_identification:Package 'src/navbot_localization' with type 'ros.ament_cmake' and name 'navbot_localization'
+[0.747s] Level 1:colcon.colcon_core.package_identification:_identify(src/navbot_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.748s] Level 1:colcon.colcon_core.package_identification:_identify(src/navbot_msgs) by extension 'ignore'
+[0.749s] Level 1:colcon.colcon_core.package_identification:_identify(src/navbot_msgs) by extension 'ignore_ament_install'
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(src/navbot_msgs) by extensions ['colcon_pkg']
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(src/navbot_msgs) by extension 'colcon_pkg'
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(src/navbot_msgs) by extensions ['colcon_meta']
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(src/navbot_msgs) by extension 'colcon_meta'
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/navbot_msgs) by extensions ['ros']
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/navbot_msgs) by extension 'ros'
+[0.780s] DEBUG:colcon.colcon_core.package_identification:Package 'src/navbot_msgs' with type 'ros.ament_cmake' and name 'navbot_msgs'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/navbot_utils) by extensions ['ignore', 'ignore_ament_install']
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/navbot_utils) by extension 'ignore'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/navbot_utils) by extension 'ignore_ament_install'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/navbot_utils) by extensions ['colcon_pkg']
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/navbot_utils) by extension 'colcon_pkg'
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/navbot_utils) by extensions ['colcon_meta']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/navbot_utils) by extension 'colcon_meta'
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/navbot_utils) by extensions ['ros']
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/navbot_utils) by extension 'ros'
+[0.809s] DEBUG:colcon.colcon_core.package_identification:Package 'src/navbot_utils' with type 'ros.ament_cmake' and name 'navbot_utils'
+[0.809s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.810s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.810s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.811s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.812s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.921s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'navbot_bringup' in 'src/navbot_bringup'
+[0.924s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'navbot_descriptions' in 'src/navbot_descriptions'
+[0.925s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'navbot_firmware' in 'src/navbot_firmware'
+[0.925s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'navbot_localization' in 'src/navbot_localization'
+[0.926s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'navbot_msgs' in 'src/navbot_msgs'
+[0.926s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'navbot_utils' in 'src/navbot_utils'
+[0.927s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'navbot_cpp_examples' in 'src/navbot_cpp_examples'
+[0.927s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'navbot_examples' in 'src/navbot_examples'
+[0.928s] Level 5:colcon.colcon_core.verb:set package 'navbot_controller' build argument 'cmake_args' from command line to 'None'
+[0.929s] Level 5:colcon.colcon_core.verb:set package 'navbot_controller' build argument 'cmake_target' from command line to 'None'
+[0.930s] Level 5:colcon.colcon_core.verb:set package 'navbot_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.930s] Level 5:colcon.colcon_core.verb:set package 'navbot_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.930s] Level 5:colcon.colcon_core.verb:set package 'navbot_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.930s] Level 5:colcon.colcon_core.verb:set package 'navbot_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.931s] Level 5:colcon.colcon_core.verb:set package 'navbot_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.933s] Level 5:colcon.colcon_core.verb:set package 'navbot_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.933s] Level 5:colcon.colcon_core.verb:set package 'navbot_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.934s] DEBUG:colcon.colcon_core.verb:Building package 'navbot_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller', 'merge_install': False, 'path': '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_controller', 'symlink_install': False, 'test_result_base': None}
+[0.935s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.938s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.939s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_controller' with build type 'ament_cmake'
+[0.939s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_controller'
+[0.947s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.948s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.063s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_controller -- -j8 -l8
+[2.852s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_controller -- -j8 -l8
+[2.907s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_controller
+[5.908s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(navbot_controller)
+[5.912s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_controller
+[5.918s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller' for CMake module files
+[6.089s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller' for CMake config files
+[6.275s] Level 1:colcon.colcon_core.shell:create_environment_hook('navbot_controller', 'cmake_prefix_path')
+[6.275s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller/share/navbot_controller/hook/cmake_prefix_path.dsv'
+[6.293s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller/share/navbot_controller/hook/cmake_prefix_path.sh'
+[6.329s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller/lib'
+[6.335s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller/bin'
+[6.337s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller/lib/pkgconfig/navbot_controller.pc'
+[6.342s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller/lib/python3.12/site-packages'
+[6.348s] Level 1:colcon.colcon_core.shell:create_environment_hook('navbot_controller', 'pythonpath')
+[6.348s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller/share/navbot_controller/hook/pythonpath.dsv'
+[6.369s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller/share/navbot_controller/hook/pythonpath.sh'
+[6.390s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller/bin'
+[6.395s] INFO:colcon.colcon_core.shell:Creating package descriptor '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller/share/navbot_controller/package.dsv'
+[6.410s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller/share/navbot_controller/package.sh'
+[6.423s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller/share/navbot_controller/package.bash'
+[6.451s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller/share/navbot_controller/package.zsh'
+[6.491s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller/share/colcon-core/packages/navbot_controller)
+[6.539s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(navbot_controller)
+[6.540s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller' for CMake module files
+[6.702s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller' for CMake config files
+[6.891s] Level 1:colcon.colcon_core.shell:create_environment_hook('navbot_controller', 'cmake_prefix_path')
+[6.892s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller/share/navbot_controller/hook/cmake_prefix_path.dsv'
+[6.908s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller/share/navbot_controller/hook/cmake_prefix_path.sh'
+[6.944s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller/lib'
+[6.948s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller/bin'
+[6.952s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller/lib/pkgconfig/navbot_controller.pc'
+[6.957s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller/lib/python3.12/site-packages'
+[6.960s] Level 1:colcon.colcon_core.shell:create_environment_hook('navbot_controller', 'pythonpath')
+[6.961s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller/share/navbot_controller/hook/pythonpath.dsv'
+[6.985s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller/share/navbot_controller/hook/pythonpath.sh'
+[7.017s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller/bin'
+[7.020s] INFO:colcon.colcon_core.shell:Creating package descriptor '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller/share/navbot_controller/package.dsv'
+[7.032s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller/share/navbot_controller/package.sh'
+[7.045s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller/share/navbot_controller/package.bash'
+[7.076s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller/share/navbot_controller/package.zsh'
+[7.094s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller/share/colcon-core/packages/navbot_controller)
+[7.106s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.107s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.107s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[7.126s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.328s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[7.329s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.329s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.329s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.335s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[7.338s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.339s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/local_setup.sh'
+[7.365s] INFO:colcon.colcon_core.shell:Creating prefix util module '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/_local_setup_util_sh.py'
+[7.373s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/setup.sh'
+[7.392s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/local_setup.bash'
+[7.400s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/setup.bash'
+[7.409s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/local_setup.zsh'
+[7.421s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/setup.zsh'

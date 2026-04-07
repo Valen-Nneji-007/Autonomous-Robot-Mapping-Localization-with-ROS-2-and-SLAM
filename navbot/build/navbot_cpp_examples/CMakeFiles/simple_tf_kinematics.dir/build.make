@@ -100,6 +100,7 @@ simple_tf_kinematics: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot
 simple_tf_kinematics: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/lib/libnavbot_msgs__rosidl_typesupport_cpp.so
 simple_tf_kinematics: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/lib/libnavbot_msgs__rosidl_generator_py.so
 simple_tf_kinematics: /opt/ros/jazzy/lib/libtf2_ros.so
+simple_tf_kinematics: /opt/ros/jazzy/lib/libtf2.so
 simple_tf_kinematics: /opt/ros/jazzy/lib/libmessage_filters.so
 simple_tf_kinematics: /opt/ros/jazzy/lib/librclcpp_action.so
 simple_tf_kinematics: /opt/ros/jazzy/lib/librclcpp.so
@@ -142,7 +143,6 @@ simple_tf_kinematics: /opt/ros/jazzy/lib/libtype_description_interfaces__rosidl_
 simple_tf_kinematics: /opt/ros/jazzy/lib/libtype_description_interfaces__rosidl_generator_py.so
 simple_tf_kinematics: /opt/ros/jazzy/lib/libtype_description_interfaces__rosidl_typesupport_c.so
 simple_tf_kinematics: /opt/ros/jazzy/lib/libtype_description_interfaces__rosidl_generator_c.so
-simple_tf_kinematics: /opt/ros/jazzy/lib/libtf2.so
 simple_tf_kinematics: /opt/ros/jazzy/lib/libtf2_msgs__rosidl_typesupport_fastrtps_c.so
 simple_tf_kinematics: /opt/ros/jazzy/lib/libtf2_msgs__rosidl_typesupport_introspection_c.so
 simple_tf_kinematics: /opt/ros/jazzy/lib/libtf2_msgs__rosidl_typesupport_fastrtps_cpp.so

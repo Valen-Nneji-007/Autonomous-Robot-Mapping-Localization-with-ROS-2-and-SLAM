@@ -1,0 +1,23 @@
+[0.202s] Invoking command in '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_controller -- -j8 -l8
+[1.234s] [ 50%] Built target twist_relay
+[1.250s] [ 50%] Built target ament_cmake_python_copy_navbot_controller
+[2.582s] running egg_info
+[2.632s] [ 75%] [32mBuilding CXX object CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o[0m
+[2.703s] writing navbot_controller.egg-info/PKG-INFO
+[2.720s] writing dependency_links to navbot_controller.egg-info/dependency_links.txt
+[2.735s] writing top-level names to navbot_controller.egg-info/top_level.txt
+[2.963s] reading manifest file 'navbot_controller.egg-info/SOURCES.txt'
+[3.044s] writing manifest file 'navbot_controller.egg-info/SOURCES.txt'
+[3.154s] [ 75%] Built target ament_cmake_python_build_navbot_controller_egg
+[10.214s] [01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_controller/src/simple_controller.cpp:[m[K In member function ‘[01m[Kvoid SimpleController::[01;32m[KjointCallback[m[K(const sensor_msgs::msg::JointState&)[m[K’:
+[10.215s] [01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_controller/src/simple_controller.cpp:48:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kfirst_joint_msg_[m[K’ was not declared in this scope
+[10.217s]    48 |     if ([01;31m[Kfirst_joint_msg_[m[K) {
+[10.218s]       |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[10.226s] [01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_controller/src/simple_controller.cpp:59:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg_time[m[K’ was not declared in this scope; did you mean ‘[01m[Kmktime[m[K’?
+[10.228s]    59 |     rclcpp::Duration dt = [01;31m[Kmsg_time[m[K - prev_time_;
+[10.230s]       |                           [01;31m[K^~~~~~~~[m[K
+[10.231s]       |                           [32m[Kmktime[m[K
+[15.182s] gmake[2]: *** [CMakeFiles/simple_controller.dir/build.make:76: CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o] Error 1
+[15.185s] gmake[1]: *** [CMakeFiles/Makefile2:142: CMakeFiles/simple_controller.dir/all] Error 2
+[15.187s] gmake: *** [Makefile:146: all] Error 2
+[15.193s] Invoked command in '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_controller -- -j8 -l8

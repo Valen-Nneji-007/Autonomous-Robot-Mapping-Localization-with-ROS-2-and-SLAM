@@ -1,0 +1,15 @@
+In file included from [01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_controller/src/simple_controller.cpp:1[m[K:
+[01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_controller/include/simple_controller.hpp:35:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kdouble[m[K’
+   35 |     [01;31m[Kdouble[m[K theta_;
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_controller/src/simple_controller.cpp:[m[K In constructor ‘[01m[KSimpleController::[01;32m[KSimpleController[m[K(const std::string&)[m[K’:
+[01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_controller/src/simple_controller.cpp:11:11:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KSimpleController[m[K’ does not have any field named ‘[01m[Ktheta_[m[K’
+   11 |         , [01;31m[Ktheta_[m[K(0.0)
+      |           [01;31m[K^~~~~~[m[K
+[01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_controller/src/simple_controller.cpp:[m[K In member function ‘[01m[Kvoid SimpleController::[01;32m[KjointCallback[m[K(const sensor_msgs::msg::JointState&)[m[K’:
+[01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_controller/src/simple_controller.cpp:80:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktheta_[m[K’ was not declared in this scope
+   80 |     [01;31m[Ktheta_[m[K +=d_theta;
+      |     [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/simple_controller.dir/build.make:76: CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:142: CMakeFiles/simple_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

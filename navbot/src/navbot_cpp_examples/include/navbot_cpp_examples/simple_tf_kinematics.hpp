@@ -8,6 +8,7 @@
 #include <tf2_ros/transform_listener.h>
 #include <geometry_msgs/msg/transform_stamped.hpp>
 #include <navbot_msgs/srv/get_transform.hpp> 
+#include <tf2/LinearMath/Quaternion.h>
 
 #include <memory>
 
@@ -27,11 +28,14 @@ private:
     rclcpp::TimerBase::SharedPtr timer_;
 
     std::unique_ptr<tf2_ros::Buffer> tf_buffer_;
-    std::unique_ptr<tf2_ros::TransformListener> tf_listener_{nullptr};
+    std::shared_ptr<tf2_ros::TransformListener> tf_listener_{nullptr};
 
 
     double x_increment_;
     double last_x_;
+    int rotations_counter_;
+    tf2::Quaternion last_orientation_;
+    tf2::Quaternion orientation_increment_;
 
     void timerCallback();
 

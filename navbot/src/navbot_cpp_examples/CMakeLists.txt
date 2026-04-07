@@ -12,8 +12,10 @@ find_package(std_msgs REQUIRED)
 find_package(rcl_interfaces REQUIRED)
 find_package(turtlesim REQUIRED)
 find_package(tf2_ros REQUIRED)
+find_package(tf2 REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(navbot_msgs REQUIRED)
+
 
 include_directories(include)
 
@@ -24,7 +26,7 @@ add_executable(simple_turtlesim_kinematics src/simple_turtlesim_kinematics.cpp)
 ament_target_dependencies(simple_turtlesim_kinematics rclcpp turtlesim)
 
 add_executable(simple_tf_kinematics src/simple_tf_kinematics.cpp)
-ament_target_dependencies(simple_tf_kinematics rclcpp tf2_ros geometry_msgs navbot_msgs)
+ament_target_dependencies(simple_tf_kinematics rclcpp tf2_ros geometry_msgs navbot_msgs tf2)
 
 add_executable(simple_service_server src/simple_service_server.cpp)
 ament_target_dependencies(simple_service_server rclcpp navbot_msgs)

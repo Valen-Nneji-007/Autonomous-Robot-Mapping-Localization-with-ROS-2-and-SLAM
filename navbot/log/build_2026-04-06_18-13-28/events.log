@@ -1,0 +1,189 @@
+[0.000000] (-) TimerEvent: {}
+[0.000626] (-) JobUnselected: {'identifier': 'navbot_bringup'}
+[0.000934] (-) JobUnselected: {'identifier': 'navbot_cpp_examples'}
+[0.001727] (-) JobUnselected: {'identifier': 'navbot_descriptions'}
+[0.002274] (-) JobUnselected: {'identifier': 'navbot_examples'}
+[0.002927] (-) JobUnselected: {'identifier': 'navbot_firmware'}
+[0.003851] (-) JobUnselected: {'identifier': 'navbot_localization'}
+[0.004367] (-) JobUnselected: {'identifier': 'navbot_msgs'}
+[0.004707] (-) JobUnselected: {'identifier': 'navbot_utils'}
+[0.005279] (navbot_controller) JobQueued: {'identifier': 'navbot_controller', 'dependencies': OrderedDict()}
+[0.006217] (navbot_controller) JobStarted: {'identifier': 'navbot_controller'}
+[0.053068] (navbot_controller) JobProgress: {'identifier': 'navbot_controller', 'progress': 'cmake'}
+[0.081862] (navbot_controller) JobProgress: {'identifier': 'navbot_controller', 'progress': 'build'}
+[0.091023] (navbot_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_controller', '--', '-j8', '-l8'], 'cwd': '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_controller', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'valen', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/valen', 'OLDPWD': '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'valen', 'NAME': 'DESKTOP-1ULGF16', 'WSL_INTEROP': '/run/WSL/621_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/ProgramData/miniconda3:/mnt/c/ProgramData/miniconda3/Library/mingw-w64/bin:/mnt/c/ProgramData/miniconda3/Library/usr/bin:/mnt/c/ProgramData/miniconda3/Library/bin:/mnt/c/ProgramData/miniconda3/Scripts:/mnt/c/ProgramData/miniconda3/bin:/mnt/c/ProgramData/miniconda3/condabin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit:/mnt/c/Program Files/dotnet:/mnt/c/Program Files/PuTTY:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.0:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Administrator/AppData/Local/Programs/Python/Python39/Scripts:/mnt/c/Users/Administrator/AppData/Local/Programs/Python/Python39:/mnt/c/Users/Administrator/.pyenv/pyenv-win/bin:/mnt/c/Users/Administrator/.pyenv/pyenv-win/shims:/mnt/c/Users/Administrator/.pyenv/pyenv-win/bin:/mnt/c/Users/Administrator/.pyenv/pyenv-win/shims:/mnt/c/Users/Administrator/AppData/Local/Programs/Python/Python313/Scripts:/mnt/c/Users/Administrator/AppData/Local/Programs/Python/Python313:/mnt/c/Users/Administrator/AppData/Local/Programs/Python/Launcher:/mnt/c/Users/Administrator/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Administrator/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/Administrator/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/Administrator/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts:/mnt/c/Users/Administrator/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_controller', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': ''}), 'shell': False}
+[0.108230] (-) TimerEvent: {}
+[0.208959] (-) TimerEvent: {}
+[0.361843] (-) TimerEvent: {}
+[0.462632] (-) TimerEvent: {}
+[0.567999] (-) TimerEvent: {}
+[0.668992] (-) TimerEvent: {}
+[0.770158] (-) TimerEvent: {}
+[0.871669] (-) TimerEvent: {}
+[0.947719] (navbot_controller) StdoutLine: {'line': b'[ 50%] Built target twist_relay\n'}
+[0.971923] (-) TimerEvent: {}
+[1.041934] (navbot_controller) StdoutLine: {'line': b'[ 50%] Built target ament_cmake_python_copy_navbot_controller\n'}
+[1.072094] (-) TimerEvent: {}
+[1.172881] (-) TimerEvent: {}
+[1.273634] (-) TimerEvent: {}
+[1.374093] (-) TimerEvent: {}
+[1.475587] (-) TimerEvent: {}
+[1.576307] (-) TimerEvent: {}
+[1.660034] (navbot_controller) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o\x1b[0m\n'}
+[1.672758] (navbot_controller) StdoutLine: {'line': b'running egg_info\n'}
+[1.676467] (-) TimerEvent: {}
+[1.723548] (navbot_controller) StdoutLine: {'line': b'writing navbot_controller.egg-info/PKG-INFO\n'}
+[1.732529] (navbot_controller) StdoutLine: {'line': b'writing dependency_links to navbot_controller.egg-info/dependency_links.txt\n'}
+[1.747057] (navbot_controller) StdoutLine: {'line': b'writing top-level names to navbot_controller.egg-info/top_level.txt\n'}
+[1.776629] (-) TimerEvent: {}
+[1.877799] (-) TimerEvent: {}
+[1.978935] (-) TimerEvent: {}
+[1.982142] (navbot_controller) StdoutLine: {'line': b"reading manifest file 'navbot_controller.egg-info/SOURCES.txt'\n"}
+[2.039718] (navbot_controller) StdoutLine: {'line': b"writing manifest file 'navbot_controller.egg-info/SOURCES.txt'\n"}
+[2.079043] (-) TimerEvent: {}
+[2.139777] (navbot_controller) StdoutLine: {'line': b'[ 75%] Built target ament_cmake_python_build_navbot_controller_egg\n'}
+[2.179247] (-) TimerEvent: {}
+[2.280293] (-) TimerEvent: {}
+[2.398449] (-) TimerEvent: {}
+[2.499342] (-) TimerEvent: {}
+[2.600727] (-) TimerEvent: {}
+[2.701558] (-) TimerEvent: {}
+[2.802049] (-) TimerEvent: {}
+[2.902632] (-) TimerEvent: {}
+[3.003440] (-) TimerEvent: {}
+[3.104171] (-) TimerEvent: {}
+[3.204723] (-) TimerEvent: {}
+[3.305363] (-) TimerEvent: {}
+[3.406107] (-) TimerEvent: {}
+[3.506790] (-) TimerEvent: {}
+[3.607244] (-) TimerEvent: {}
+[3.707985] (-) TimerEvent: {}
+[3.808979] (-) TimerEvent: {}
+[3.909636] (-) TimerEvent: {}
+[4.010420] (-) TimerEvent: {}
+[4.111277] (-) TimerEvent: {}
+[4.212027] (-) TimerEvent: {}
+[4.312977] (-) TimerEvent: {}
+[4.413963] (-) TimerEvent: {}
+[4.515689] (-) TimerEvent: {}
+[4.616904] (-) TimerEvent: {}
+[4.717909] (-) TimerEvent: {}
+[4.818886] (-) TimerEvent: {}
+[4.919663] (-) TimerEvent: {}
+[5.020347] (-) TimerEvent: {}
+[5.121157] (-) TimerEvent: {}
+[5.221911] (-) TimerEvent: {}
+[5.322613] (-) TimerEvent: {}
+[5.423475] (-) TimerEvent: {}
+[5.524177] (-) TimerEvent: {}
+[5.624970] (-) TimerEvent: {}
+[5.725874] (-) TimerEvent: {}
+[5.826645] (-) TimerEvent: {}
+[5.927459] (-) TimerEvent: {}
+[6.028303] (-) TimerEvent: {}
+[6.129026] (-) TimerEvent: {}
+[6.229807] (-) TimerEvent: {}
+[6.330520] (-) TimerEvent: {}
+[6.431457] (-) TimerEvent: {}
+[6.532170] (-) TimerEvent: {}
+[6.633030] (-) TimerEvent: {}
+[6.733867] (-) TimerEvent: {}
+[6.834704] (-) TimerEvent: {}
+[6.935427] (-) TimerEvent: {}
+[7.036121] (-) TimerEvent: {}
+[7.150294] (-) TimerEvent: {}
+[7.268348] (-) TimerEvent: {}
+[7.368946] (-) TimerEvent: {}
+[7.469551] (-) TimerEvent: {}
+[7.570353] (-) TimerEvent: {}
+[7.671204] (-) TimerEvent: {}
+[7.771762] (-) TimerEvent: {}
+[7.872341] (-) TimerEvent: {}
+[7.973020] (-) TimerEvent: {}
+[8.074039] (-) TimerEvent: {}
+[8.174685] (-) TimerEvent: {}
+[8.275428] (-) TimerEvent: {}
+[8.376209] (-) TimerEvent: {}
+[8.476971] (-) TimerEvent: {}
+[8.577810] (-) TimerEvent: {}
+[8.579106] (navbot_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_controller/src/simple_controller.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KSimpleController::\x1b[01;32m\x1b[KSimpleController\x1b[m\x1b[K(const std::string&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.581972] (navbot_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_controller/src/simple_controller.cpp:23:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kfunction template-id \xe2\x80\x98\x1b[01m\x1b[Kcreate_subscription<sensor_msgs::msg::JointState>\x1b[m\x1b[K\xe2\x80\x99 in nested-name-specifier\n'}
+[8.583466] (navbot_controller) StderrLine: {'line': b'   23 |     joint_sub_ = \x1b[01;31m\x1b[Kcreate_subscription<sensor_msgs::msg::JointState>\x1b[m\x1b[K::("/joint_states", 10,\n'}
+[8.584592] (navbot_controller) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.585929] (navbot_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:1663\x1b[m\x1b[K,\n'}
+[8.586932] (navbot_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[8.587874] (navbot_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[8.588760] (navbot_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172\x1b[m\x1b[K,\n'}
+[8.589627] (navbot_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_controller/include/simple_controller.hpp:4\x1b[m\x1b[K,\n'}
+[8.590581] (navbot_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_controller/src/simple_controller.cpp:1\x1b[m\x1b[K:\n'}
+[8.591434] (navbot_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node_impl.hpp:92:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::\x1b[01;32m\x1b[Kcreate_subscription\x1b[m\x1b[K(const std::string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[8.592326] (navbot_controller) StderrLine: {'line': b'   92 | \x1b[01;36m\x1b[KNode\x1b[m\x1b[K::create_subscription(\n'}
+[8.593182] (navbot_controller) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[8.594889] (navbot_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_controller/src/simple_controller.cpp:23:69:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[8.596549] (navbot_controller) StderrLine: {'line': b'   23 | nsor_msgs::msg::JointState>::\x1b[01;31m\x1b[K(\x1b[m\x1b[K"/joint_states", 10,\n'}
+[8.599280] (navbot_controller) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[8.602516] (navbot_controller) StderrLine: {'line': b'\n'}
+[8.605670] (navbot_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_controller/src/simple_controller.cpp:24:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static member function \xe2\x80\x98\x1b[01m\x1b[Kvoid SimpleController::\x1b[01;32m\x1b[KjointCallback\x1b[m\x1b[K(const sensor_msgs::msg::JointState&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.608248] (navbot_controller) StderrLine: {'line': b'   24 |  std::bind(\x1b[01;31m\x1b[KSimpleController::jointCallback\x1b[m\x1b[K, this, _1));\n'}
+[8.611186] (navbot_controller) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.613336] (navbot_controller) StderrLine: {'line': b'\n'}
+[8.615083] (navbot_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_controller/include/simple_controller.hpp:18:10:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[8.616694] (navbot_controller) StderrLine: {'line': b'   18 |     void \x1b[01;36m\x1b[KjointCallback\x1b[m\x1b[K(const sensor_msgs::msg::JointState & msg);\n'}
+[8.618292] (navbot_controller) StderrLine: {'line': b'      |          \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.641835] (navbot_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_controller/src/simple_controller.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid SimpleController::\x1b[01;32m\x1b[KjointCallback\x1b[m\x1b[K(const sensor_msgs::msg::JointState&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.643357] (navbot_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_controller/src/simple_controller.cpp:66:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[8.644769] (navbot_controller) StderrLine: {'line': b'   66 | \x1b[01;31m\x1b[K}\x1b[m\x1b[K;\n'}
+[8.646404] (navbot_controller) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[8.677935] (-) TimerEvent: {}
+[8.778708] (-) TimerEvent: {}
+[8.879392] (-) TimerEvent: {}
+[8.979992] (-) TimerEvent: {}
+[9.080822] (-) TimerEvent: {}
+[9.181501] (-) TimerEvent: {}
+[9.282108] (-) TimerEvent: {}
+[9.382801] (-) TimerEvent: {}
+[9.483801] (-) TimerEvent: {}
+[9.584549] (-) TimerEvent: {}
+[9.685576] (-) TimerEvent: {}
+[9.786454] (-) TimerEvent: {}
+[9.887298] (-) TimerEvent: {}
+[9.988215] (-) TimerEvent: {}
+[10.089105] (-) TimerEvent: {}
+[10.189747] (-) TimerEvent: {}
+[10.290563] (-) TimerEvent: {}
+[10.391227] (-) TimerEvent: {}
+[10.491902] (-) TimerEvent: {}
+[10.592617] (-) TimerEvent: {}
+[10.693383] (-) TimerEvent: {}
+[10.794120] (-) TimerEvent: {}
+[10.894932] (-) TimerEvent: {}
+[10.995789] (-) TimerEvent: {}
+[11.097022] (-) TimerEvent: {}
+[11.197824] (-) TimerEvent: {}
+[11.298598] (-) TimerEvent: {}
+[11.399332] (-) TimerEvent: {}
+[11.500065] (-) TimerEvent: {}
+[11.600732] (-) TimerEvent: {}
+[11.701624] (-) TimerEvent: {}
+[11.817675] (-) TimerEvent: {}
+[11.918922] (-) TimerEvent: {}
+[12.022221] (-) TimerEvent: {}
+[12.122989] (-) TimerEvent: {}
+[12.223587] (-) TimerEvent: {}
+[12.324243] (-) TimerEvent: {}
+[12.424978] (-) TimerEvent: {}
+[12.525688] (-) TimerEvent: {}
+[12.626337] (-) TimerEvent: {}
+[12.726875] (-) TimerEvent: {}
+[12.827514] (-) TimerEvent: {}
+[12.897463] (navbot_controller) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/simple_controller.dir/build.make:76: CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o] Error 1\n'}
+[12.902026] (navbot_controller) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:142: CMakeFiles/simple_controller.dir/all] Error 2\n'}
+[12.904114] (navbot_controller) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[12.908354] (navbot_controller) CommandEnded: {'returncode': 2}
+[12.927755] (-) TimerEvent: {}
+[13.028757] (-) TimerEvent: {}
+[13.129508] (-) TimerEvent: {}
+[13.230048] (-) TimerEvent: {}
+[13.327377] (navbot_controller) JobEnded: {'identifier': 'navbot_controller', 'rc': 2}
+[13.344820] (-) TimerEvent: {}
+[13.345365] (-) EventReactorShutdown: {}
