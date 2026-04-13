@@ -1,0 +1,51 @@
+[0.992s] Invoking command in '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_examples:/opt/ros/jazzy /usr/bin/cmake --build /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_localization -- -j8 -l8
+[1.881s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[7.468s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[8.212s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[8.286s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[8.398s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.537s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.929s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[8.987s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[10.092s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[10.845s] -- Found rclpy: 7.1.9 (/opt/ros/jazzy/share/rclpy/cmake)
+[10.849s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[11.051s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[11.125s] -- Found tf2: 0.36.19 (/opt/ros/jazzy/share/tf2/cmake)
+[12.314s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[14.208s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[14.209s] -- Configured cppcheck include dirs: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_localization/include
+[14.211s] -- Configured cppcheck exclude dirs and/or files: 
+[14.314s] -- Added test 'flake8' to check Python code syntax and style conventions
+[14.315s] -- Configured 'flake8' exclude dirs and/or files: 
+[14.506s] -- Added test 'lint_cmake' to check CMake code style
+[14.597s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[15.335s] -- Added test 'uncrustify' to check C / C++ code style
+[15.336s] -- Configured uncrustify additional arguments: 
+[15.429s] -- Added test 'xmllint' to check XML markup files
+[15.512s] -- Configuring done (13.8s)
+[16.296s] -- Generating done (0.7s)
+[16.738s] -- Build files have been written to: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_localization
+[17.188s] [ 16%] [32mBuilding CXX object CMakeFiles/imu_republisher.dir/src/imu_republisher.cpp.o[0m
+[17.525s] [ 16%] Built target ament_cmake_python_copy_navbot_localization
+[18.183s] [ 50%] Built target kalman_filter
+[18.225s] [ 83%] Built target odometry_motion_model
+[20.016s] running egg_info
+[20.108s] writing navbot_localization.egg-info/PKG-INFO
+[20.117s] writing dependency_links to navbot_localization.egg-info/dependency_links.txt
+[20.126s] writing top-level names to navbot_localization.egg-info/top_level.txt
+[20.369s] reading manifest file 'navbot_localization.egg-info/SOURCES.txt'
+[20.416s] writing manifest file 'navbot_localization.egg-info/SOURCES.txt'
+[20.602s] [ 83%] Built target ament_cmake_python_build_navbot_localization_egg
+[24.478s] [01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_localization/src/imu_republisher.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[24.479s] [01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_localization/src/imu_republisher.cpp:21:26:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kimu_pub[m[K’
+[24.480s]    21 |     rclcpp::sleep_for(1s)
+[24.481s]       |                          [01;31m[K^[m[K
+[24.482s]       |                          [32m[K;[m[K
+[24.483s]    22 | 
+[24.484s]    23 |     [32m[Kimu_pub[m[K = node->create_publisher<sensor_msg::msg::Imu>("imu_ekf", 10);
+[24.485s]       |     [32m[K~~~~~~~[m[K               
+[29.815s] gmake[2]: *** [CMakeFiles/imu_republisher.dir/build.make:76: CMakeFiles/imu_republisher.dir/src/imu_republisher.cpp.o] Error 1
+[29.817s] gmake[1]: *** [CMakeFiles/Makefile2:170: CMakeFiles/imu_republisher.dir/all] Error 2
+[29.819s] gmake: *** [Makefile:146: all] Error 2
+[29.822s] Invoked command in '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_localization' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_examples:/opt/ros/jazzy /usr/bin/cmake --build /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_localization -- -j8 -l8

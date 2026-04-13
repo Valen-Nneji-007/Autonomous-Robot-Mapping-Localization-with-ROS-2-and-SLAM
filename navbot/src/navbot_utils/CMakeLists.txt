@@ -12,6 +12,8 @@ find_package(rclpy REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
+find_package(nav_msgs REQUIRED)
+find_package(geometry_msgs REQUIRED)
 
 ament_python_install_package(${PROJECT_NAME})
 
@@ -34,5 +36,11 @@ if(BUILD_TESTING)
  
   ament_lint_auto_find_test_dependencies()
 endif()
+
+install(PROGRAMS
+  ${PROJECT_NAME}/practicing_node.py
+    DESTINATION lib/${PROJECT_NAME}
+
+)
 
 ament_package()

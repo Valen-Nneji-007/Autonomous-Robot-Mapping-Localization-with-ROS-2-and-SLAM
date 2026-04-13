@@ -64,6 +64,7 @@ CMAKE_BINARY_DIR = /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Ma
 
 # The main recursive "all" target.
 all: CMakeFiles/simple_controller.dir/all
+all: CMakeFiles/noisy_controller.dir/all
 all: CMakeFiles/twist_relay.dir/all
 all: CMakeFiles/ament_cmake_python_build_navbot_controller_egg.dir/all
 .PHONY : all
@@ -76,6 +77,7 @@ preinstall:
 clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/navbot_controller_uninstall.dir/clean
 clean: CMakeFiles/simple_controller.dir/clean
+clean: CMakeFiles/noisy_controller.dir/clean
 clean: CMakeFiles/twist_relay.dir/clean
 clean: CMakeFiles/ament_cmake_python_copy_navbot_controller.dir/clean
 clean: CMakeFiles/ament_cmake_python_build_navbot_controller_egg.dir/clean
@@ -140,7 +142,7 @@ CMakeFiles/navbot_controller_uninstall.dir/clean:
 CMakeFiles/simple_controller.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_controller.dir/build.make CMakeFiles/simple_controller.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_controller.dir/build.make CMakeFiles/simple_controller.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_controller/CMakeFiles --progress-num=1,2 "Built target simple_controller"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_controller/CMakeFiles --progress-num=3,4 "Built target simple_controller"
 .PHONY : CMakeFiles/simple_controller.dir/all
 
 # Build rule for subdir invocation for target.
@@ -160,13 +162,39 @@ CMakeFiles/simple_controller.dir/clean:
 .PHONY : CMakeFiles/simple_controller.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/noisy_controller.dir
+
+# All Build rule for target.
+CMakeFiles/noisy_controller.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/noisy_controller.dir/build.make CMakeFiles/noisy_controller.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/noisy_controller.dir/build.make CMakeFiles/noisy_controller.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_controller/CMakeFiles --progress-num=1,2 "Built target noisy_controller"
+.PHONY : CMakeFiles/noisy_controller.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/noisy_controller.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_controller/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/noisy_controller.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_controller/CMakeFiles 0
+.PHONY : CMakeFiles/noisy_controller.dir/rule
+
+# Convenience name for target.
+noisy_controller: CMakeFiles/noisy_controller.dir/rule
+.PHONY : noisy_controller
+
+# clean rule for target.
+CMakeFiles/noisy_controller.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/noisy_controller.dir/build.make CMakeFiles/noisy_controller.dir/clean
+.PHONY : CMakeFiles/noisy_controller.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/twist_relay.dir
 
 # All Build rule for target.
 CMakeFiles/twist_relay.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/twist_relay.dir/build.make CMakeFiles/twist_relay.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/twist_relay.dir/build.make CMakeFiles/twist_relay.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_controller/CMakeFiles --progress-num=3,4 "Built target twist_relay"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_controller/CMakeFiles --progress-num=5,6 "Built target twist_relay"
 .PHONY : CMakeFiles/twist_relay.dir/all
 
 # Build rule for subdir invocation for target.

@@ -1,0 +1,28 @@
+[01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_controller/src/simple_controller.cpp:[m[K In constructor ‘[01m[KSimpleController::[01;32m[KSimpleController[m[K(const std::string&)[m[K’:
+[01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_controller/src/simple_controller.cpp:30:60:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+   30 | s::msg::Odometry><([01;35m[K"/navbot_controller/odom"[m[K, 10);
+      |                    [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_controller/src/simple_controller.cpp:30:58:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[K<unresolved overloaded function type>[m[K’ and ‘[01m[Kint[m[K’ to binary ‘[01m[Koperator<[m[K’
+   30 | [32m[Ksgs::msg::Odometry>[m[K[01;31m[K<[m[K[34m[K("/navbot_controller/odom", 10)[m[K;
+      | [32m[K~~~~~~~~~~~~~~~~~~~[m[K[01;31m[K^[m[K[34m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                               [34m[K|[m[K
+      |                                               [34m[Kint[m[K
+
+[01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_controller/src/simple_controller.cpp:36:44:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kodom_msg_[m[K’
+   36 |     odom_msg_.pose.pose.orientation.x = 0.0
+      |                                            [01;31m[K^[m[K
+      |                                            [32m[K;[m[K
+   37 |     [32m[Kodom_msg_[m[K.pose.pose.orientation.y = 0.0
+      |     [32m[K~~~~~~~~~[m[K                               
+[01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_controller/src/simple_controller.cpp:[m[K In member function ‘[01m[Kvoid SimpleController::[01;32m[KjointCallback[m[K(const sensor_msgs::msg::JointState&)[m[K’:
+[01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_controller/src/simple_controller.cpp:106:34:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+  106 |     odom_pub_->publish(odom_msg_)
+      |                                  [01;31m[K^[m[K
+      |                                  [32m[K;[m[K
+......
+  110 | [32m[K}[m[K
+      | [32m[K~[m[K                                 
+gmake[2]: *** [CMakeFiles/simple_controller.dir/build.make:76: CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:142: CMakeFiles/simple_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

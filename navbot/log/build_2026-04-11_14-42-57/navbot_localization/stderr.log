@@ -1,0 +1,11 @@
+[01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_localization/src/imu_republisher.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_localization/src/imu_republisher.cpp:21:26:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kimu_pub[m[K’
+   21 |     rclcpp::sleep_for(1s)
+      |                          [01;31m[K^[m[K
+      |                          [32m[K;[m[K
+   22 | 
+   23 |     [32m[Kimu_pub[m[K = node->create_publisher<sensor_msg::msg::Imu>("imu_ekf", 10);
+      |     [32m[K~~~~~~~[m[K               
+gmake[2]: *** [CMakeFiles/imu_republisher.dir/build.make:76: CMakeFiles/imu_republisher.dir/src/imu_republisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:170: CMakeFiles/imu_republisher.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

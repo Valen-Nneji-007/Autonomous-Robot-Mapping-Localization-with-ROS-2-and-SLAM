@@ -1,0 +1,14 @@
+[01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_controller/src/noisy_controller.cpp:[m[K In member function ‘[01m[Kvoid NoisyController::[01;32m[KjointCallback[m[K(const sensor_msgs::msg::JointState&)[m[K’:
+[01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_controller/src/noisy_controller.cpp:67:12:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kdouble wheel_encoder_left[m[K’
+   67 |     double [01;31m[Kwheel_encoder_left[m[K = msg.position.at(0) + right_encoder_noise(noise_generator);
+      |            [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_controller/src/noisy_controller.cpp:66:12:[m[K [01;36m[Knote: [m[K‘[01m[Kdouble wheel_encoder_left[m[K’ previously declared here
+   66 |     double [01;36m[Kwheel_encoder_left[m[K = msg.position.at(1) + left_encoder_noise(noise_generator);
+      |            [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_controller/src/noisy_controller.cpp:69:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kwheel_encoder_right[m[K’ was not declared in this scope; did you mean ‘[01m[Kwheel_encoder_left[m[K’?
+   69 |     double dp_right = [01;31m[Kwheel_encoder_right[m[K - right_wheel_prev_pos_;
+      |                       [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |                       [32m[Kwheel_encoder_left[m[K
+gmake[2]: *** [CMakeFiles/noisy_controller.dir/build.make:76: CMakeFiles/noisy_controller.dir/src/noisy_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:170: CMakeFiles/noisy_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,7 @@
+setup.py
+navbot_firmware/__init__.py
+navbot_firmware/simple_serial_transmitter.py
+navbot_firmware.egg-info/PKG-INFO
+navbot_firmware.egg-info/SOURCES.txt
+navbot_firmware.egg-info/dependency_links.txt
+navbot_firmware.egg-info/top_level.txt

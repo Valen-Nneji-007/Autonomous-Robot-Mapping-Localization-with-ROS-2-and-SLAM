@@ -211,6 +211,19 @@ kalman_filter/fast:
 .PHONY : kalman_filter/fast
 
 #=============================================================================
+# Target rules for targets named imu_republisher
+
+# Build rule for target.
+imu_republisher: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 imu_republisher
+.PHONY : imu_republisher
+
+# fast build rule for target.
+imu_republisher/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imu_republisher.dir/build.make CMakeFiles/imu_republisher.dir/build
+.PHONY : imu_republisher/fast
+
+#=============================================================================
 # Target rules for targets named odometry_motion_model
 
 # Build rule for target.
@@ -248,6 +261,30 @@ ament_cmake_python_build_navbot_localization_egg: cmake_check_build_system
 ament_cmake_python_build_navbot_localization_egg/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_build_navbot_localization_egg.dir/build.make CMakeFiles/ament_cmake_python_build_navbot_localization_egg.dir/build
 .PHONY : ament_cmake_python_build_navbot_localization_egg/fast
+
+src/imu_republisher.o: src/imu_republisher.cpp.o
+.PHONY : src/imu_republisher.o
+
+# target to build an object file
+src/imu_republisher.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imu_republisher.dir/build.make CMakeFiles/imu_republisher.dir/src/imu_republisher.cpp.o
+.PHONY : src/imu_republisher.cpp.o
+
+src/imu_republisher.i: src/imu_republisher.cpp.i
+.PHONY : src/imu_republisher.i
+
+# target to preprocess a source file
+src/imu_republisher.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imu_republisher.dir/build.make CMakeFiles/imu_republisher.dir/src/imu_republisher.cpp.i
+.PHONY : src/imu_republisher.cpp.i
+
+src/imu_republisher.s: src/imu_republisher.cpp.s
+.PHONY : src/imu_republisher.s
+
+# target to generate assembly for a file
+src/imu_republisher.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imu_republisher.dir/build.make CMakeFiles/imu_republisher.dir/src/imu_republisher.cpp.s
+.PHONY : src/imu_republisher.cpp.s
 
 src/kalman_filter.o: src/kalman_filter.cpp.o
 .PHONY : src/kalman_filter.o
@@ -314,8 +351,12 @@ help:
 	@echo "... ament_cmake_python_copy_navbot_localization"
 	@echo "... navbot_localization_uninstall"
 	@echo "... uninstall"
+	@echo "... imu_republisher"
 	@echo "... kalman_filter"
 	@echo "... odometry_motion_model"
+	@echo "... src/imu_republisher.o"
+	@echo "... src/imu_republisher.i"
+	@echo "... src/imu_republisher.s"
 	@echo "... src/kalman_filter.o"
 	@echo "... src/kalman_filter.i"
 	@echo "... src/kalman_filter.s"

@@ -924,6 +924,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/uninstall.dir/DependInfo.cmake"
   "CMakeFiles/navbot_controller_uninstall.dir/DependInfo.cmake"
   "CMakeFiles/simple_controller.dir/DependInfo.cmake"
+  "CMakeFiles/noisy_controller.dir/DependInfo.cmake"
   "CMakeFiles/twist_relay.dir/DependInfo.cmake"
   "CMakeFiles/ament_cmake_python_copy_navbot_controller.dir/DependInfo.cmake"
   "CMakeFiles/ament_cmake_python_build_navbot_controller_egg.dir/DependInfo.cmake"

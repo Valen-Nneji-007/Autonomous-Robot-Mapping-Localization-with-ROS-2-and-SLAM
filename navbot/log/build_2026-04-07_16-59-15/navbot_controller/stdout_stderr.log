@@ -1,0 +1,24 @@
+[ 50%] Built target twist_relay
+[ 50%] Built target ament_cmake_python_copy_navbot_controller
+[ 75%] [32mBuilding CXX object CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o[0m
+running egg_info
+writing navbot_controller.egg-info/PKG-INFO
+writing dependency_links to navbot_controller.egg-info/dependency_links.txt
+writing top-level names to navbot_controller.egg-info/top_level.txt
+reading manifest file 'navbot_controller.egg-info/SOURCES.txt'
+writing manifest file 'navbot_controller.egg-info/SOURCES.txt'
+[ 75%] Built target ament_cmake_python_build_navbot_controller_egg
+[01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_controller/src/simple_controller.cpp:[m[K In constructor ‘[01m[KSimpleController::[01;32m[KSimpleController[m[K(const std::string&)[m[K’:
+[01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_controller/src/simple_controller.cpp:30:60:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+   30 | s::msg::Odometry><([01;35m[K"/navbot_controller/odom"[m[K, 10);
+      |                    [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_controller/src/simple_controller.cpp:30:58:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[K<unresolved overloaded function type>[m[K’ and ‘[01m[Kint[m[K’ to binary ‘[01m[Koperator<[m[K’
+   30 | [32m[Ksgs::msg::Odometry>[m[K[01;31m[K<[m[K[34m[K("/navbot_controller/odom", 10)[m[K;
+      | [32m[K~~~~~~~~~~~~~~~~~~~[m[K[01;31m[K^[m[K[34m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                               [34m[K|[m[K
+      |                                               [34m[Kint[m[K
+
+gmake[2]: *** [CMakeFiles/simple_controller.dir/build.make:76: CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:142: CMakeFiles/simple_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

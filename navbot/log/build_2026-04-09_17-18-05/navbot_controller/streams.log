@@ -1,0 +1,55 @@
+[0.250s] Invoking command in '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_controller -- -j8 -l8
+[0.824s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.955s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[3.221s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[3.357s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[3.490s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.625s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.041s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[4.080s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[5.489s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.233s] -- Found rclpy: 7.1.9 (/opt/ros/jazzy/share/rclpy/cmake)
+[6.238s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[6.364s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[6.444s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[6.532s] -- Found tf2_ros: 0.36.19 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[7.197s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[9.199s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[9.200s] -- Configured cppcheck include dirs: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_controller/include
+[9.202s] -- Configured cppcheck exclude dirs and/or files: 
+[9.339s] -- Added test 'flake8' to check Python code syntax and style conventions
+[9.340s] -- Configured 'flake8' exclude dirs and/or files: 
+[9.617s] -- Added test 'lint_cmake' to check CMake code style
+[9.800s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[10.838s] -- Added test 'uncrustify' to check C / C++ code style
+[10.839s] -- Configured uncrustify additional arguments: 
+[10.966s] -- Added test 'xmllint' to check XML markup files
+[11.057s] -- Configuring done (10.5s)
+[11.996s] -- Generating done (0.8s)
+[12.579s] -- Build files have been written to: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_controller
+[12.830s] [ 16%] [32mBuilding CXX object CMakeFiles/noisy_controller.dir/src/noisy_controller.cpp.o[0m
+[13.089s] [ 16%] Built target ament_cmake_python_copy_navbot_controller
+[13.935s] [ 50%] Built target twist_relay
+[14.011s] running egg_info
+[14.109s] writing navbot_controller.egg-info/PKG-INFO
+[14.131s] writing dependency_links to navbot_controller.egg-info/dependency_links.txt
+[14.155s] writing top-level names to navbot_controller.egg-info/top_level.txt
+[14.388s] [ 83%] Built target simple_controller
+[14.465s] reading manifest file 'navbot_controller.egg-info/SOURCES.txt'
+[14.518s] writing manifest file 'navbot_controller.egg-info/SOURCES.txt'
+[14.648s] [ 83%] Built target ament_cmake_python_build_navbot_controller_egg
+[23.956s] [01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_controller/src/noisy_controller.cpp:[m[K In member function ‘[01m[Kvoid NoisyController::[01;32m[KjointCallback[m[K(const sensor_msgs::msg::JointState&)[m[K’:
+[23.957s] [01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_controller/src/noisy_controller.cpp:67:12:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kdouble wheel_encoder_left[m[K’
+[23.958s]    67 |     double [01;31m[Kwheel_encoder_left[m[K = msg.position.at(0) + right_encoder_noise(noise_generator);
+[23.960s]       |            [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[23.961s] [01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_controller/src/noisy_controller.cpp:66:12:[m[K [01;36m[Knote: [m[K‘[01m[Kdouble wheel_encoder_left[m[K’ previously declared here
+[23.962s]    66 |     double [01;36m[Kwheel_encoder_left[m[K = msg.position.at(1) + left_encoder_noise(noise_generator);
+[23.962s]       |            [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[23.974s] [01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_controller/src/noisy_controller.cpp:69:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kwheel_encoder_right[m[K’ was not declared in this scope; did you mean ‘[01m[Kwheel_encoder_left[m[K’?
+[23.975s]    69 |     double dp_right = [01;31m[Kwheel_encoder_right[m[K - right_wheel_prev_pos_;
+[23.977s]       |                       [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[23.978s]       |                       [32m[Kwheel_encoder_left[m[K
+[30.046s] gmake[2]: *** [CMakeFiles/noisy_controller.dir/build.make:76: CMakeFiles/noisy_controller.dir/src/noisy_controller.cpp.o] Error 1
+[30.048s] gmake[1]: *** [CMakeFiles/Makefile2:170: CMakeFiles/noisy_controller.dir/all] Error 2
+[30.049s] gmake: *** [Makefile:146: all] Error 2
+[30.052s] Invoked command in '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_controller -- -j8 -l8

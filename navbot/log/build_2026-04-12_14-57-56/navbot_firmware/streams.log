@@ -1,0 +1,55 @@
+[0.459s] Invoking command in '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_firmware -- -j8 -l8
+[1.265s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[3.083s] -- Found rclpy: 7.1.9 (/opt/ros/jazzy/share/rclpy/cmake)
+[4.148s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[6.090s] -- Added test 'flake8' to check Python code syntax and style conventions
+[6.092s] -- Configured 'flake8' exclude dirs and/or files: 
+[6.269s] -- Added test 'lint_cmake' to check CMake code style
+[6.371s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[7.259s] -- Added test 'xmllint' to check XML markup files
+[7.442s] -- Configuring done (6.5s)
+[8.522s] -- Generating done (0.9s)
+[9.002s] -- Build files have been written to: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_firmware
+[9.408s] Built target ament_cmake_python_copy_navbot_firmware
+[10.156s] running egg_info
+[10.160s] creating navbot_firmware.egg-info
+[10.228s] writing navbot_firmware.egg-info/PKG-INFO
+[10.234s] writing dependency_links to navbot_firmware.egg-info/dependency_links.txt
+[10.244s] writing top-level names to navbot_firmware.egg-info/top_level.txt
+[10.251s] writing manifest file 'navbot_firmware.egg-info/SOURCES.txt'
+[10.545s] reading manifest file 'navbot_firmware.egg-info/SOURCES.txt'
+[10.579s] writing manifest file 'navbot_firmware.egg-info/SOURCES.txt'
+[10.667s] Built target ament_cmake_python_build_navbot_firmware_egg
+[11.065s] Invoked command in '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_firmware -- -j8 -l8
+[11.093s] Invoking command in '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_firmware
+[11.129s] -- Install configuration: ""
+[11.151s] -- Installing: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_firmware/share/navbot_firmware/environment/pythonpath.sh
+[11.262s] -- Installing: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_firmware/share/navbot_firmware/environment/pythonpath.dsv
+[11.336s] -- Installing: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_firmware/lib/python3.12/site-packages/navbot_firmware-0.0.0-py3.12.egg-info
+[11.381s] -- Installing: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_firmware/lib/python3.12/site-packages/navbot_firmware-0.0.0-py3.12.egg-info/dependency_links.txt
+[11.489s] -- Installing: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_firmware/lib/python3.12/site-packages/navbot_firmware-0.0.0-py3.12.egg-info/PKG-INFO
+[11.593s] -- Installing: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_firmware/lib/python3.12/site-packages/navbot_firmware-0.0.0-py3.12.egg-info/SOURCES.txt
+[11.709s] -- Installing: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_firmware/lib/python3.12/site-packages/navbot_firmware-0.0.0-py3.12.egg-info/top_level.txt
+[11.809s] -- Installing: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_firmware/lib/python3.12/site-packages/navbot_firmware
+[11.852s] -- Installing: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_firmware/lib/python3.12/site-packages/navbot_firmware/simple_serial_transmitter.py
+[11.957s] -- Installing: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_firmware/lib/python3.12/site-packages/navbot_firmware/__init__.py
+[12.337s] Listing '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_firmware/lib/python3.12/site-packages/navbot_firmware'...
+[12.339s] Compiling '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_firmware/lib/python3.12/site-packages/navbot_firmware/__init__.py'...
+[12.341s] Compiling '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_firmware/lib/python3.12/site-packages/navbot_firmware/simple_serial_transmitter.py'...
+[12.399s] -- Installing: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_firmware/lib/navbot_firmware/simple_serial_transmitter.py
+[12.762s] -- Installing: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_firmware/share/ament_index/resource_index/package_run_dependencies/navbot_firmware
+[12.912s] -- Installing: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_firmware/share/ament_index/resource_index/parent_prefix_path/navbot_firmware
+[13.025s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_firmware/share/navbot_firmware/environment/ament_prefix_path.sh
+[13.158s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_firmware/share/navbot_firmware/environment/ament_prefix_path.dsv
+[13.188s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_firmware/share/navbot_firmware/environment/path.sh
+[13.220s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_firmware/share/navbot_firmware/environment/path.dsv
+[13.250s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_firmware/share/navbot_firmware/local_setup.bash
+[13.273s] -- Installing: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_firmware/share/navbot_firmware/local_setup.sh
+[13.374s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_firmware/share/navbot_firmware/local_setup.zsh
+[13.411s] -- Installing: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_firmware/share/navbot_firmware/local_setup.dsv
+[13.526s] -- Installing: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_firmware/share/navbot_firmware/package.dsv
+[13.651s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_firmware/share/ament_index/resource_index/packages/navbot_firmware
+[13.691s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_firmware/share/navbot_firmware/cmake/navbot_firmwareConfig.cmake
+[13.733s] -- Up-to-date: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_firmware/share/navbot_firmware/cmake/navbot_firmwareConfig-version.cmake
+[13.768s] -- Installing: /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_firmware/share/navbot_firmware/package.xml
+[13.875s] Invoked command in '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_firmware

@@ -64,6 +64,7 @@ CMAKE_BINARY_DIR = /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Ma
 
 # The main recursive "all" target.
 all: CMakeFiles/kalman_filter.dir/all
+all: CMakeFiles/imu_republisher.dir/all
 all: CMakeFiles/odometry_motion_model.dir/all
 all: CMakeFiles/ament_cmake_python_build_navbot_localization_egg.dir/all
 .PHONY : all
@@ -76,6 +77,7 @@ preinstall:
 clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/navbot_localization_uninstall.dir/clean
 clean: CMakeFiles/kalman_filter.dir/clean
+clean: CMakeFiles/imu_republisher.dir/clean
 clean: CMakeFiles/odometry_motion_model.dir/clean
 clean: CMakeFiles/ament_cmake_python_copy_navbot_localization.dir/clean
 clean: CMakeFiles/ament_cmake_python_build_navbot_localization_egg.dir/clean
@@ -140,7 +142,7 @@ CMakeFiles/navbot_localization_uninstall.dir/clean:
 CMakeFiles/kalman_filter.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/kalman_filter.dir/build.make CMakeFiles/kalman_filter.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/kalman_filter.dir/build.make CMakeFiles/kalman_filter.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_localization/CMakeFiles --progress-num=1,2 "Built target kalman_filter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_localization/CMakeFiles --progress-num=3,4 "Built target kalman_filter"
 .PHONY : CMakeFiles/kalman_filter.dir/all
 
 # Build rule for subdir invocation for target.
@@ -160,13 +162,39 @@ CMakeFiles/kalman_filter.dir/clean:
 .PHONY : CMakeFiles/kalman_filter.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/imu_republisher.dir
+
+# All Build rule for target.
+CMakeFiles/imu_republisher.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imu_republisher.dir/build.make CMakeFiles/imu_republisher.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imu_republisher.dir/build.make CMakeFiles/imu_republisher.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_localization/CMakeFiles --progress-num=1,2 "Built target imu_republisher"
+.PHONY : CMakeFiles/imu_republisher.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/imu_republisher.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_localization/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/imu_republisher.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_localization/CMakeFiles 0
+.PHONY : CMakeFiles/imu_republisher.dir/rule
+
+# Convenience name for target.
+imu_republisher: CMakeFiles/imu_republisher.dir/rule
+.PHONY : imu_republisher
+
+# clean rule for target.
+CMakeFiles/imu_republisher.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imu_republisher.dir/build.make CMakeFiles/imu_republisher.dir/clean
+.PHONY : CMakeFiles/imu_republisher.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/odometry_motion_model.dir
 
 # All Build rule for target.
 CMakeFiles/odometry_motion_model.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/odometry_motion_model.dir/build.make CMakeFiles/odometry_motion_model.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/odometry_motion_model.dir/build.make CMakeFiles/odometry_motion_model.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_localization/CMakeFiles --progress-num=3,4 "Built target odometry_motion_model"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_localization/CMakeFiles --progress-num=5,6 "Built target odometry_motion_model"
 .PHONY : CMakeFiles/odometry_motion_model.dir/all
 
 # Build rule for subdir invocation for target.

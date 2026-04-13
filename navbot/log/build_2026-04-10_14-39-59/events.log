@@ -1,0 +1,159 @@
+[0.000000] (-) TimerEvent: {}
+[0.000898] (-) JobUnselected: {'identifier': 'navbot_bringup'}
+[0.001400] (-) JobUnselected: {'identifier': 'navbot_controller'}
+[0.001745] (-) JobUnselected: {'identifier': 'navbot_cpp_examples'}
+[0.002196] (-) JobUnselected: {'identifier': 'navbot_descriptions'}
+[0.002674] (-) JobUnselected: {'identifier': 'navbot_firmware'}
+[0.003296] (-) JobUnselected: {'identifier': 'navbot_localization'}
+[0.003709] (-) JobUnselected: {'identifier': 'navbot_msgs'}
+[0.004215] (-) JobUnselected: {'identifier': 'navbot_utils'}
+[0.004717] (navbot_examples) JobQueued: {'identifier': 'navbot_examples', 'dependencies': OrderedDict({'navbot_msgs': '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs'})}
+[0.005454] (navbot_examples) JobStarted: {'identifier': 'navbot_examples'}
+[0.096307] (-) TimerEvent: {}
+[0.196965] (-) TimerEvent: {}
+[0.297655] (-) TimerEvent: {}
+[0.398110] (-) TimerEvent: {}
+[0.498783] (-) TimerEvent: {}
+[0.599422] (-) TimerEvent: {}
+[0.700041] (-) TimerEvent: {}
+[0.800618] (-) TimerEvent: {}
+[0.901118] (-) TimerEvent: {}
+[1.001617] (-) TimerEvent: {}
+[1.102158] (-) TimerEvent: {}
+[1.202645] (-) TimerEvent: {}
+[1.303115] (-) TimerEvent: {}
+[1.403731] (-) TimerEvent: {}
+[1.504256] (-) TimerEvent: {}
+[1.604893] (-) TimerEvent: {}
+[1.705422] (-) TimerEvent: {}
+[1.806111] (-) TimerEvent: {}
+[1.906698] (-) TimerEvent: {}
+[2.007243] (-) TimerEvent: {}
+[2.107718] (-) TimerEvent: {}
+[2.208455] (-) TimerEvent: {}
+[2.311682] (-) TimerEvent: {}
+[2.412408] (-) TimerEvent: {}
+[2.513069] (-) TimerEvent: {}
+[2.613537] (-) TimerEvent: {}
+[2.713946] (-) TimerEvent: {}
+[2.814408] (-) TimerEvent: {}
+[2.915006] (-) TimerEvent: {}
+[3.015510] (-) TimerEvent: {}
+[3.116159] (-) TimerEvent: {}
+[3.216741] (-) TimerEvent: {}
+[3.317569] (-) TimerEvent: {}
+[3.418140] (-) TimerEvent: {}
+[3.519029] (-) TimerEvent: {}
+[3.619616] (-) TimerEvent: {}
+[3.720086] (-) TimerEvent: {}
+[3.820552] (-) TimerEvent: {}
+[3.921004] (-) TimerEvent: {}
+[4.021492] (-) TimerEvent: {}
+[4.122023] (-) TimerEvent: {}
+[4.222617] (-) TimerEvent: {}
+[4.323467] (-) TimerEvent: {}
+[4.424199] (-) TimerEvent: {}
+[4.524654] (-) TimerEvent: {}
+[4.625146] (-) TimerEvent: {}
+[4.725663] (-) TimerEvent: {}
+[4.826380] (-) TimerEvent: {}
+[4.926793] (-) TimerEvent: {}
+[5.027263] (-) TimerEvent: {}
+[5.127884] (-) TimerEvent: {}
+[5.228342] (-) TimerEvent: {}
+[5.328783] (-) TimerEvent: {}
+[5.429274] (-) TimerEvent: {}
+[5.529745] (-) TimerEvent: {}
+[5.630500] (-) TimerEvent: {}
+[5.731208] (-) TimerEvent: {}
+[5.831709] (-) TimerEvent: {}
+[5.932243] (-) TimerEvent: {}
+[6.032741] (-) TimerEvent: {}
+[6.133602] (-) TimerEvent: {}
+[6.234380] (-) TimerEvent: {}
+[6.334899] (-) TimerEvent: {}
+[6.435427] (-) TimerEvent: {}
+[6.536248] (-) TimerEvent: {}
+[6.637092] (-) TimerEvent: {}
+[6.712045] (navbot_examples) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/navbot_examples', 'build', '--build-base', '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_examples/build', 'install', '--record', '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_examples/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_examples', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'valen', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/valen', 'OLDPWD': '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'valen', 'NAME': 'DESKTOP-1ULGF16', 'WSL_INTEROP': '/run/WSL/621_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/ProgramData/miniconda3:/mnt/c/ProgramData/miniconda3/Library/mingw-w64/bin:/mnt/c/ProgramData/miniconda3/Library/usr/bin:/mnt/c/ProgramData/miniconda3/Library/bin:/mnt/c/ProgramData/miniconda3/Scripts:/mnt/c/ProgramData/miniconda3/bin:/mnt/c/ProgramData/miniconda3/condabin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit:/mnt/c/Program Files/dotnet:/mnt/c/Program Files/PuTTY:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.0:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Administrator/AppData/Local/Programs/Python/Python39/Scripts:/mnt/c/Users/Administrator/AppData/Local/Programs/Python/Python39:/mnt/c/Users/Administrator/.pyenv/pyenv-win/bin:/mnt/c/Users/Administrator/.pyenv/pyenv-win/shims:/mnt/c/Users/Administrator/.pyenv/pyenv-win/bin:/mnt/c/Users/Administrator/.pyenv/pyenv-win/shims:/mnt/c/Users/Administrator/AppData/Local/Programs/Python/Python313/Scripts:/mnt/c/Users/Administrator/AppData/Local/Programs/Python/Python313:/mnt/c/Users/Administrator/AppData/Local/Programs/Python/Launcher:/mnt/c/Users/Administrator/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Administrator/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/Administrator/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/Administrator/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts:/mnt/c/Users/Administrator/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_utils:/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_examples:/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_cpp_examples:/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs:/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_localization:/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_firmware:/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_descriptions:/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller:/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_bringup:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_examples', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_examples/lib/python3.12/site-packages:/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs/lib/python3.12/site-packages:/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_utils/lib/python3.12/site-packages:/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_examples/lib/python3.12/site-packages:/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_localization/lib/python3.12/site-packages:/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_msgs:/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_utils:/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_cpp_examples:/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_localization:/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_firmware:/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_descriptions:/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_controller:/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_bringup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor', 'WSLENV': ''}, 'shell': False}
+[6.737165] (-) TimerEvent: {}
+[6.837805] (-) TimerEvent: {}
+[6.938405] (-) TimerEvent: {}
+[7.039170] (-) TimerEvent: {}
+[7.139828] (-) TimerEvent: {}
+[7.240429] (-) TimerEvent: {}
+[7.340962] (-) TimerEvent: {}
+[7.441577] (-) TimerEvent: {}
+[7.542078] (-) TimerEvent: {}
+[7.642709] (-) TimerEvent: {}
+[7.743145] (-) TimerEvent: {}
+[7.843623] (-) TimerEvent: {}
+[7.944185] (-) TimerEvent: {}
+[8.045114] (-) TimerEvent: {}
+[8.145751] (-) TimerEvent: {}
+[8.246478] (-) TimerEvent: {}
+[8.346927] (-) TimerEvent: {}
+[8.447511] (-) TimerEvent: {}
+[8.548217] (-) TimerEvent: {}
+[8.648915] (-) TimerEvent: {}
+[8.749454] (-) TimerEvent: {}
+[8.849913] (-) TimerEvent: {}
+[8.950548] (-) TimerEvent: {}
+[9.015281] (navbot_examples) StdoutLine: {'line': b'running egg_info\n'}
+[9.050670] (-) TimerEvent: {}
+[9.074351] (navbot_examples) StdoutLine: {'line': b'writing ../../build/navbot_examples/navbot_examples.egg-info/PKG-INFO\n'}
+[9.089942] (navbot_examples) StdoutLine: {'line': b'writing dependency_links to ../../build/navbot_examples/navbot_examples.egg-info/dependency_links.txt\n'}
+[9.099523] (navbot_examples) StdoutLine: {'line': b'writing entry points to ../../build/navbot_examples/navbot_examples.egg-info/entry_points.txt\n'}
+[9.108674] (navbot_examples) StdoutLine: {'line': b'writing requirements to ../../build/navbot_examples/navbot_examples.egg-info/requires.txt\n'}
+[9.114016] (navbot_examples) StdoutLine: {'line': b'writing top-level names to ../../build/navbot_examples/navbot_examples.egg-info/top_level.txt\n'}
+[9.150814] (-) TimerEvent: {}
+[9.251315] (-) TimerEvent: {}
+[9.286430] (navbot_examples) StdoutLine: {'line': b"reading manifest file '../../build/navbot_examples/navbot_examples.egg-info/SOURCES.txt'\n"}
+[9.351402] (-) TimerEvent: {}
+[9.365915] (navbot_examples) StdoutLine: {'line': b"writing manifest file '../../build/navbot_examples/navbot_examples.egg-info/SOURCES.txt'\n"}
+[9.369394] (navbot_examples) StdoutLine: {'line': b'running build\n'}
+[9.370975] (navbot_examples) StdoutLine: {'line': b'running build_py\n'}
+[9.451533] (-) TimerEvent: {}
+[9.457015] (navbot_examples) StdoutLine: {'line': b'copying navbot_examples/valen_pub.py -> /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_examples/build/lib/navbot_examples\n'}
+[9.522440] (navbot_examples) StdoutLine: {'line': b'running install\n'}
+[9.543889] (navbot_examples) StdoutLine: {'line': b'running install_lib\n'}
+[9.551642] (-) TimerEvent: {}
+[9.652070] (-) TimerEvent: {}
+[9.749434] (navbot_examples) StdoutLine: {'line': b'copying /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_examples/build/lib/navbot_examples/valen_pub.py -> /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_examples/lib/python3.12/site-packages/navbot_examples\n'}
+[9.752139] (-) TimerEvent: {}
+[9.852579] (-) TimerEvent: {}
+[9.953290] (-) TimerEvent: {}
+[9.966518] (navbot_examples) StdoutLine: {'line': b'byte-compiling /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_examples/lib/python3.12/site-packages/navbot_examples/valen_pub.py to valen_pub.cpython-312.pyc\n'}
+[10.047871] (navbot_examples) StdoutLine: {'line': b'running install_data\n'}
+[10.053394] (-) TimerEvent: {}
+[10.072861] (navbot_examples) StdoutLine: {'line': b'running install_egg_info\n'}
+[10.153526] (-) TimerEvent: {}
+[10.184863] (navbot_examples) StdoutLine: {'line': b"removing '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_examples/lib/python3.12/site-packages/navbot_examples-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[10.237561] (navbot_examples) StdoutLine: {'line': b'Copying ../../build/navbot_examples/navbot_examples.egg-info to /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_examples/lib/python3.12/site-packages/navbot_examples-0.0.0-py3.12.egg-info\n'}
+[10.253660] (-) TimerEvent: {}
+[10.354225] (-) TimerEvent: {}
+[10.454828] (-) TimerEvent: {}
+[10.487658] (navbot_examples) StdoutLine: {'line': b'running install_scripts\n'}
+[10.555029] (-) TimerEvent: {}
+[10.656203] (-) TimerEvent: {}
+[10.756977] (-) TimerEvent: {}
+[10.857555] (-) TimerEvent: {}
+[10.958340] (-) TimerEvent: {}
+[11.058897] (-) TimerEvent: {}
+[11.159630] (-) TimerEvent: {}
+[11.260135] (-) TimerEvent: {}
+[11.315512] (navbot_examples) StdoutLine: {'line': b'Installing simple_parameter script to /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_examples/lib/navbot_examples\n'}
+[11.329724] (navbot_examples) StdoutLine: {'line': b'Installing simple_service_client script to /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_examples/lib/navbot_examples\n'}
+[11.341306] (navbot_examples) StdoutLine: {'line': b'Installing simple_service_server script to /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_examples/lib/navbot_examples\n'}
+[11.351491] (navbot_examples) StdoutLine: {'line': b'Installing simple_tf_kinematics script to /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_examples/lib/navbot_examples\n'}
+[11.360259] (-) TimerEvent: {}
+[11.361688] (navbot_examples) StdoutLine: {'line': b'Installing simple_turtlesim_kinematics script to /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_examples/lib/navbot_examples\n'}
+[11.371363] (navbot_examples) StdoutLine: {'line': b'Installing valen_pub script to /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_examples/lib/navbot_examples\n'}
+[11.382672] (navbot_examples) StdoutLine: {'line': b'Installing valen_subscribing script to /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_examples/lib/navbot_examples\n'}
+[11.400385] (navbot_examples) StdoutLine: {'line': b"writing list of installed files to '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_examples/install.log'\n"}
+[11.444417] (navbot_examples) CommandEnded: {'returncode': 0}
+[11.460383] (-) TimerEvent: {}
+[11.560962] (-) TimerEvent: {}
+[11.661421] (-) TimerEvent: {}
+[11.728166] (navbot_examples) JobEnded: {'identifier': 'navbot_examples', 'rc': 0}
+[11.737784] (-) EventReactorShutdown: {}

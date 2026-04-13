@@ -1,0 +1,26 @@
+[0.358s] Invoking command in '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_examples:/opt/ros/jazzy /usr/bin/cmake --build /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_controller -- -j8 -l8
+[1.336s] [ 50%] Built target twist_relay
+[1.496s] [ 50%] Built target ament_cmake_python_copy_navbot_controller
+[1.994s] [ 75%] [32mBuilding CXX object CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o[0m
+[5.629s] running egg_info
+[5.706s] writing navbot_controller.egg-info/PKG-INFO
+[5.713s] writing dependency_links to navbot_controller.egg-info/dependency_links.txt
+[5.721s] writing top-level names to navbot_controller.egg-info/top_level.txt
+[5.938s] reading manifest file 'navbot_controller.egg-info/SOURCES.txt'
+[5.976s] writing manifest file 'navbot_controller.egg-info/SOURCES.txt'
+[6.171s] [ 75%] Built target ament_cmake_python_build_navbot_controller_egg
+[10.628s] [01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_controller/src/simple_controller.cpp:[m[K In constructor ‘[01m[KSimpleController::[01;32m[KSimpleController[m[K(const std::string&)[m[K’:
+[10.629s] [01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_controller/src/simple_controller.cpp:30:60:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[10.630s]    30 | s::msg::Odometry><([01;35m[K"/navbot_controller/odom"[m[K, 10);
+[10.632s]       |                    [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.634s] 
+[10.635s] [01m[K/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/src/navbot_controller/src/simple_controller.cpp:30:58:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[K<unresolved overloaded function type>[m[K’ and ‘[01m[Kint[m[K’ to binary ‘[01m[Koperator<[m[K’
+[10.637s]    30 | [32m[Ksgs::msg::Odometry>[m[K[01;31m[K<[m[K[34m[K("/navbot_controller/odom", 10)[m[K;
+[10.638s]       | [32m[K~~~~~~~~~~~~~~~~~~~[m[K[01;31m[K^[m[K[34m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.640s]       |                                               [34m[K|[m[K
+[10.640s]       |                                               [34m[Kint[m[K
+[10.641s] 
+[15.631s] gmake[2]: *** [CMakeFiles/simple_controller.dir/build.make:76: CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o] Error 1
+[15.637s] gmake[1]: *** [CMakeFiles/Makefile2:142: CMakeFiles/simple_controller.dir/all] Error 2
+[15.639s] gmake: *** [Makefile:146: all] Error 2
+[15.644s] Invoked command in '/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/install/navbot_examples:/opt/ros/jazzy /usr/bin/cmake --build /mnt/c/Users/Administrator/Documents/SLAM/Autonomous-Robot-Mapping-Localization-with-ROS-2-and-SLAM-1/navbot/build/navbot_controller -- -j8 -l8
