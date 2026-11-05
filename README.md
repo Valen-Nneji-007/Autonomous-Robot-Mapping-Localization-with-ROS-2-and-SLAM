@@ -66,7 +66,7 @@ The project covers the full robotics stack:
   </tr>
   <tr>
     <td><img src="slam_live_video.gif" width="520" alt="Real robot SLAM in RViz"/></td>
-    <td><img src="docs/images/joystick_teleop.gif" width="300" alt="Driving NavBot with an Xbox controller"/></td>
+    <td><img src="Joystick.gif" width="300" alt="Driving NavBot with an Xbox controller"/></td>
   </tr>
 </table>
 
