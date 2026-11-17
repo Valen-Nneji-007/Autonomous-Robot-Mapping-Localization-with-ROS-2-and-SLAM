@@ -72,7 +72,7 @@ The project covers the full robotics stack:
 
 **Map built by the real robot** (RViz2: map, laser scan and TF frames):
 
-<img src="autonomous_navigation.mp4" width="700" alt="Occupancy grid map built by NavBot"/>
+<img src="autonomous_navigation.gif" width="700" alt="Occupancy grid map built by NavBot"/>
 
 **The same pipeline in simulation:** Gazebo `small_house` world (left) and the map from SLAM Toolbox in RViz2 (right):
 
