@@ -12,9 +12,8 @@
 [![Python](https://img.shields.io/badge/Python-3.10-3776AB?logo=python&logoColor=white)](#)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-<img src="photo_2026-03-09_01-27-29.jpg" width="32%" height="30%" alt="NavBot front view"/>
-<img src="docs/images/navbot_side.jpg" width="32%" alt="NavBot on the desk"/>
-<img src="docs/images/navbot_wheel.jpg" width="32%" alt="NavBot side view with wheel"/>
+<img src="photo_2026-03-09_01-27-38.jpg" width="32%" height="30%" alt="NavBot front view"/>
+
 
 </div>
 
