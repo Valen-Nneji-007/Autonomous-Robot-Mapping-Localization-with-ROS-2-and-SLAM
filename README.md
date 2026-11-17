@@ -76,7 +76,7 @@ The project covers the full robotics stack:
 
 **The same pipeline in simulation:** Gazebo `small_house` world (left) and the map from SLAM Toolbox in RViz2 (right):
 
-<img src="docs/images/simulation_gazebo_slam.png" alt="Gazebo simulation with SLAM"/>
+<img src="nav_sim_gaz.gif" alt="Gazebo simulation with SLAM"/>
 
 ---
 
